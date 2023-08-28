@@ -1,10 +1,32 @@
 [
     {
         "Character": "Shunsui Kyoraku",
-        "Sword": "Katen Kyokotsu"
+        "Sword": "Katen Kyokotsu",
+        "Position" : "Captain"
     },
     {
         "Character": "Ichigo Kurosaki",
-        "Sword": "Zangetsu"
+        "Sword": "Zangetsu",
+        "Position": "Substitute Shinigami"
+    },
+    {
+        "Character": "Renji Abarai",
+        "Sword" : "Zabimaru",
+        "Position": "Lieutenant"
+    },
+    {
+        "Character" : "Urahara Kisuke",
+        "Sword" : "Benehime",
+        "Position": "Former Captain"
+    },
+    {
+        "Character": "Isane Kotetsu",
+        "Sword": "Itegumo",
+        "Position": "Captain"
+    },
+    {
+        "Character": "Rangiku Matsumoto",
+        "Sword": "Hineko",
+        "Position": "Lieutenant"
     }
 ]
