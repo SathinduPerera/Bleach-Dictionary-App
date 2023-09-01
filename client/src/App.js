@@ -88,6 +88,24 @@ function App() {
             if (sub) {
               arr.push("Substitute Shinigami")
             }
+            if (arrancar) {
+              arr.push("Arrancar")
+            }
+            if (espada) {
+              arr.push("Espada")
+            }
+            if (fullbring) {
+              arr.push("Fullbring")
+            }
+            if (quincy) {
+              arr.push("Quincy")
+            }
+            if (sternritter) {
+              arr.push("Sternritter")
+            }
+            if (Squad0) {
+              arr.push("Squad 0")
+            }
         }
         
         return arr
@@ -107,7 +125,7 @@ function App() {
       setbackend(data.data)
       console.log(data.message)
     })
-  }, [captain, lieutenant, formerCap, all, other, sub])
+  }, [captain, lieutenant, formerCap, all, other, sub, fullbring, espada, arrancar, quincy, Squad0, sternritter])
 
   return (
     <div>
@@ -127,20 +145,23 @@ function App() {
         <label htmlFor='sub'>Substitute Shinigami</label>
         <input type='checkbox' id='sub' onChange={() => setSub(!sub)}></input>
 
-        <label htmlFor='sub'>Fullbring</label>
-        <input type='checkbox' id='sub' onChange={() => setSub(!fullbring)}></input>
+        <label htmlFor='full'>Fullbring</label>
+        <input type='checkbox' id='full' onChange={() => setfullbring(!fullbring)}></input>
 
-        <label htmlFor='sub'>Espada</label>
-        <input type='checkbox' id='sub' onChange={() => setSub(!espada)}></input>
+        <label htmlFor='esp'>Espada</label>
+        <input type='checkbox' id='esp' onChange={() => setespada(!espada)}></input>
 
-        <label htmlFor='sub'>Arrancar</label>
-        <input type='checkbox' id='sub' onChange={() => setSub(!arrancar)}></input>
+        <label htmlFor='arr'>Arrancar</label>
+        <input type='checkbox' id='arr' onChange={() => setarrancar(!arrancar)}></input>
 
-        <label htmlFor='sub'>Quincy</label>
-        <input type='checkbox' id='sub' onChange={() => setSub(!quincy)}></input>
+        <label htmlFor='quin'>Quincy</label>
+        <input type='checkbox' id='quin' onChange={() => setquincy(!quincy)}></input>
 
-        <label htmlFor='sub'>Sternritter</label>
-        <input type='checkbox' id='sub' onChange={() => setSub(!sternritter)}></input>
+        <label htmlFor='stern'>Sternritter</label>
+        <input type='checkbox' id='stern' onChange={() => setsternritter(!sternritter)}></input>
+
+        <label htmlFor='s0'>Squad 0</label>
+        <input type='checkbox' id='s0' onChange={() => setSquad0(!Squad0)}></input>
 
         <label htmlFor='other'>Other</label>
         <input type='checkbox' id='other' onChange={() => setother(!other)}></input>

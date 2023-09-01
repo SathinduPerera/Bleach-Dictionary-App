@@ -43,5 +43,20 @@
         "Character": "Shinji Hirako",
         "Sword": "Sakanade",
         "Position": "Captain"
+    },
+    {
+        "Character": "Uryu Ishida",
+        "Sword": "Antithesis",
+        "Position": "Sternritter"
+    },
+    {
+        "Character": "Ichibe Hyosube",
+        "Sword": "Ichimonji",
+        "Position": "Squad 0"
+    },
+    {
+        "Character": "Tier Harribel",
+        "Sword": "Tiburón",
+        "Position": "Espada"
     }
 ]

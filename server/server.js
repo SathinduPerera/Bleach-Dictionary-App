@@ -97,6 +97,7 @@ let userdata = []
 app.post("/api/post", (req, res) => {
     userdata = req.body.selection_arr
     let arr = sort(userdata)
+    console.log(arr)
     res.json({"data" : arr,
               "message" : "data dilivered successfully"})
 })
