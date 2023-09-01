@@ -28,5 +28,20 @@
         "Character": "Rangiku Matsumoto",
         "Sword": "Hineko",
         "Position": "Lieutenant"
+    },
+    {
+        "Character":"Kukaku Shiba",
+        "Sword": "N/A",
+        "Position":"Other"
+    },
+    {
+        "Character": "Kūgo Ginjō",
+        "Sword": "Cross of Scaffold",
+        "Position":"Fullbring"
+    },
+    {
+        "Character": "Shinji Hirako",
+        "Sword": "Sakanade",
+        "Position": "Captain"
     }
 ]

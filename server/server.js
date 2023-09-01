@@ -21,45 +21,21 @@ function filter (position, arr) {
 }
 
 
-function sort() {
-
-    let getArr = []
-
-    if (all) {
-      backend.forEach(element => getArr.push(element))
+function sort(arr) {
+    let sendArr = []
+    if(arr[0] == "All") {
+        return data
     } else {
-        if(other) {
-            let arr = filter("Other", backend)
-            arr.forEach(element => getArr.push(element))
-            console.log(arr)
-        }
-        if (captain) {
-            let arr = filter("Captain", backend)
-            arr.forEach(element => getArr.push(element))
-            console.log(arr)
-        }
-        if (lieutenant) {
-            let arr = filter("Lieutenant", backend)
-            arr.forEach(element => getArr.push(element))
-            console.log(arr)
-        }
-        if (formerCap) {
-            let arr = filter("Former Captain", backend)
-            arr.forEach(element => getArr.push(element))
-            console.log(arr)
-        }
-        if (sub) {
-            let arr = filter("Substitute Shinigami", backend)
-            arr.forEach(element => getArr.push(element))
-            console.log(arr)
-        }
+        data.forEach((element) => {
+            for(let i = 0; i < arr.length; i++){
+                if(arr[i] === element.Position) {
+                    sendArr.push(element)
+                }
+            }
+        })
+        return sendArr;
     }
-
-    console.log("sorting...")
-
-    return getArr
-
-  }
+}
 
 
 //   function filter (position, arr) {
@@ -116,10 +92,24 @@ app.get("/api", (req, res) => {
 
 //     fs.writeFileSync("Updated.json", JSON.stringify(getArr));
 
+let userdata = []
+
 app.post("/api/post", (req, res) => {
-    console.log(req.body.selection_arr)
-    res.json({"message" : "Form Submitted"})
+    userdata = req.body.selection_arr
+    let arr = sort(userdata)
+    res.json({"data" : arr,
+              "message" : "data dilivered successfully"})
 })
+
+
+
+// app.put("/api", (req, res) => {
+//     console.log(req.body);
+//     return res.json({
+//         message : "put route"
+//     })
+// });
+
 
     // res.json({"message" : "form Submitted"})
 // })

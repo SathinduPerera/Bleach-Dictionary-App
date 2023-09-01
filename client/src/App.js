@@ -10,6 +10,12 @@ function App() {
   const [formerCap, setFormerCap] = useState(false);
   const [sub, setSub] = useState(false);
   const [other, setother] = useState(false);
+  const [fullbring, setfullbring] = useState(false);
+  const [Squad0, setSquad0] = useState(false);
+  const [arrancar, setarrancar] = useState(false);
+  const [espada, setespada] = useState(false);
+  const [quincy, setquincy] = useState(false);
+  const [sternritter, setsternritter] = useState(false);
   const [sorted, setsorted] = useState(false);
 
   useEffect(() => {
@@ -20,8 +26,8 @@ function App() {
         setbackend(data)
       }
     )
-  }, [sorted])
-  
+  }, [])
+
 
   // useEffect(() => {
 
@@ -97,17 +103,15 @@ function App() {
       method: "post",
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify(userdata)
-    }).then((response) => response.json()).then((data) => console.log(data.message))
+    }).then((response) => response.json()).then((data) => {
+      setbackend(data.data)
+      console.log(data.message)
+    })
   }, [captain, lieutenant, formerCap, all, other, sub])
-
-
-  function handleSubmit(e) {
-    e.preventDefault()
-  }
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form>
         <label htmlFor='all'>All Characters</label>
         <input type='checkbox' id='all' onChange={() => setAll(!all)} defaultChecked></input>
 
@@ -123,10 +127,23 @@ function App() {
         <label htmlFor='sub'>Substitute Shinigami</label>
         <input type='checkbox' id='sub' onChange={() => setSub(!sub)}></input>
 
+        <label htmlFor='sub'>Fullbring</label>
+        <input type='checkbox' id='sub' onChange={() => setSub(!fullbring)}></input>
+
+        <label htmlFor='sub'>Espada</label>
+        <input type='checkbox' id='sub' onChange={() => setSub(!espada)}></input>
+
+        <label htmlFor='sub'>Arrancar</label>
+        <input type='checkbox' id='sub' onChange={() => setSub(!arrancar)}></input>
+
+        <label htmlFor='sub'>Quincy</label>
+        <input type='checkbox' id='sub' onChange={() => setSub(!quincy)}></input>
+
+        <label htmlFor='sub'>Sternritter</label>
+        <input type='checkbox' id='sub' onChange={() => setSub(!sternritter)}></input>
+
         <label htmlFor='other'>Other</label>
         <input type='checkbox' id='other' onChange={() => setother(!other)}></input>
-
-        <button onClick={() => {setsorted(!sorted)}}>Sort</button>
       </form>
       <ol>
         {(typeof backend === 'undefined')? <p>Loading...</p> :
