@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 let dataArr = []
 
-fetch("/api").then((response) => response.json()).then((data) => console.log(data))
+// fetch("/api").then((response) => response.json()).then((data) => console.log(data))
 
 root.render(
   <App></App>
