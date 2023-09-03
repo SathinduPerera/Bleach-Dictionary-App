@@ -36,28 +36,6 @@
   justify-content: center;
 }
 
-.options{
-  margin: 10px;
-  background-color:rgba(141, 202, 182, 0.308);
-  padding: 10px;
-  border-radius: 10px;
-  display: inline-block;
-  z-index: 200;
-  transition: 0.2s;
-}
-
-.options label{
-  padding:10px
-}
-
-.options:hover{
-  transform: translateX(-5px);
-}
-
-.options input{
-  display: none;
-}
-
 #content{
   margin: auto;
 }

@@ -26,6 +26,11 @@ function App() {
     )
   }, [])
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5227b3bbd5b7150a4ed073ce4a87ef795f17977b
   // useEffect(() => {
 
   //   console.log(all, captain, lieutenant, formerCap, sub, other)
@@ -107,12 +112,19 @@ function App() {
 
   function Checkbox({setFunction, position, value}) {
     return (
+<<<<<<< HEAD
       <div className='options' style={(value)?{backgroundColor:"rgba(141, 202, 182)"}:{backgroundColor:"rgba(141, 202, 182, 0.5)"}}>
           <label htmlFor={position}>{position}</label>
           <input type='checkbox' id={position} onChange={setFunction} checked={value} className='option_check'></input>
+=======
+      <div className='options'>
+          <label htmlFor={position}>{position}</label>
+          <input type='checkbox' id={position} onChange={setFunction} checked={value}></input>
+>>>>>>> 5227b3bbd5b7150a4ed073ce4a87ef795f17977b
       </div>
     )
   }
+
 
   useEffect(() => {
     let arr = postSort()
