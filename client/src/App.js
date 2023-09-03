@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react'
 function App() {
   const [backend, setbackend] = useState([{}])
 
-  const [all, setAll] = useState(true);
   const [captain, setCaptain] = useState(false);
   const [lieutenant, setLieutenant] = useState(false);
   const [formerCap, setFormerCap] = useState(false);
@@ -16,7 +15,6 @@ function App() {
   const [espada, setespada] = useState(false);
   const [quincy, setquincy] = useState(false);
   const [sternritter, setsternritter] = useState(false);
-  const [sorted, setsorted] = useState(false);
 
   useEffect(() => {
     fetch("/api").then(
@@ -108,6 +106,23 @@ function App() {
     return arr
   }
 
+  function Checkbox({setFunction, position, value}) {
+    return (
+      <>
+          <label htmlFor={position}>{position}</label>
+          <input type='checkbox' id={position} onClick={setFunction} checked={value}></input>
+      </>
+    )
+  }
+
+  function Checkboxs() {
+    return(
+      <div>
+        <input type='checkbox'></input>
+      </div>
+    )
+  }
+
   useEffect(() => {
     let arr = postSort()
     let userdata = {
@@ -123,7 +138,7 @@ function App() {
       console.log(data.message)
     })
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [captain, lieutenant, formerCap, all, other, sub, fullbring, espada, arrancar, quincy, Squad0, sternritter])
+  }, [captain, lieutenant, formerCap, other, sub, fullbring, espada, arrancar, quincy, Squad0, sternritter])
 
   return (
     <div>
@@ -131,38 +146,17 @@ function App() {
 
       <div id="root2">
         <form id='form_div'>
-          <label htmlFor='Captain'>Captain</label>
-          <input type='checkbox' id='Captain' onChange={() => setCaptain(!captain)}></input>
-
-          <label htmlFor='lie'>Lieutenant</label>
-          <input type='checkbox' id='lie' onChange={() => setLieutenant(!lieutenant)}></input>
-
-          <label htmlFor='fc'>Former Captain</label>
-          <input type='checkbox' id='fc' onChange={() => setFormerCap(!formerCap)}></input>
-
-          <label htmlFor='sub'>Substitute Shinigami</label>
-          <input type='checkbox' id='sub' onChange={() => setSub(!sub)}></input>
-
-          <label htmlFor='full'>Fullbring</label>
-          <input type='checkbox' id='full' onChange={() => setfullbring(!fullbring)}></input>
-
-          <label htmlFor='esp'>Espada</label>
-          <input type='checkbox' id='esp' onChange={() => setespada(!espada)}></input>
-
-          <label htmlFor='arr'>Arrancar</label>
-          <input type='checkbox' id='arr' onChange={() => setarrancar(!arrancar)}></input>
-
-          <label htmlFor='quin'>Quincy</label>
-          <input type='checkbox' id='quin' onChange={() => setquincy(!quincy)}></input>
-
-          <label htmlFor='stern'>Sternritter</label>
-          <input type='checkbox' id='stern' onChange={() => setsternritter(!sternritter)}></input>
-
-          <label htmlFor='s0'>Squad 0</label>
-          <input type='checkbox' id='s0' onChange={() => setSquad0(!Squad0)}></input>
-
-          <label htmlFor='other'>Other</label>
-          <input type='checkbox' id='other' onChange={() => setother(!other)}></input>
+          <Checkbox setFunction={() => setCaptain(!captain)} position="Captain" value={captain}/>
+          <Checkbox setFunction={() => setLieutenant(!lieutenant)} position="Lieutenant" value={lieutenant}/>
+          <Checkbox setFunction={() => setFormerCap(!formerCap)} position="Former Captain" value={formerCap}/>
+          <Checkbox setFunction={() => setSub(!sub)} position="Substitute Shinigami" value={sub}/>
+          <Checkbox setFunction={() => setfullbring(!fullbring)} position="Fullbring" value={fullbring}/>
+          <Checkbox setFunction={() => setespada(!espada)} position="Espada" value={espada}/>
+          <Checkbox setFunction={() => setarrancar(!arrancar)} position="Arrancar" value={arrancar}/>
+          <Checkbox setFunction={() => setquincy(!quincy)} position="Quincy" value={quincy}/>
+          <Checkbox setFunction={() => setsternritter(!sternritter)} position="Sternritter" value={sternritter}/>
+          <Checkbox setFunction={() => setSquad0(!Squad0)} position="Squad 0" value={Squad0}/>
+          <Checkbox setFunction={() => setother(!other)} position="Other" value={other}/>
         </form>
       <div id='content'>
         <ul>
