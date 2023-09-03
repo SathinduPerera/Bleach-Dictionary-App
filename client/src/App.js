@@ -27,6 +27,7 @@ function App() {
   }, [])
 
 
+
   // useEffect(() => {
 
   //   console.log(all, captain, lieutenant, formerCap, sub, other)
@@ -108,20 +109,13 @@ function App() {
 
   function Checkbox({setFunction, position, value}) {
     return (
-      <>
+      <div className='options'>
           <label htmlFor={position}>{position}</label>
-          <input type='checkbox' id={position} onClick={setFunction} checked={value}></input>
-      </>
-    )
-  }
-
-  function Checkboxs() {
-    return(
-      <div>
-        <input type='checkbox'></input>
+          <input type='checkbox' id={position} onChange={setFunction} checked={value}></input>
       </div>
     )
   }
+
 
   useEffect(() => {
     let arr = postSort()
@@ -145,7 +139,7 @@ function App() {
       <h1 className='title'>BLEACH<br/><span>Character Information</span></h1>
 
       <div id="root2">
-        <form id='form_div'>
+        <div id='form_div'>
           <Checkbox setFunction={() => setCaptain(!captain)} position="Captain" value={captain}/>
           <Checkbox setFunction={() => setLieutenant(!lieutenant)} position="Lieutenant" value={lieutenant}/>
           <Checkbox setFunction={() => setFormerCap(!formerCap)} position="Former Captain" value={formerCap}/>
@@ -157,7 +151,8 @@ function App() {
           <Checkbox setFunction={() => setsternritter(!sternritter)} position="Sternritter" value={sternritter}/>
           <Checkbox setFunction={() => setSquad0(!Squad0)} position="Squad 0" value={Squad0}/>
           <Checkbox setFunction={() => setother(!other)} position="Other" value={other}/>
-        </form>
+        </div>
+
       <div id='content'>
         <ul>
           {(typeof backend === 'undefined')? <p>Loading...</p> :
