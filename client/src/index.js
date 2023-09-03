@@ -9,14 +9,12 @@ import {BrowserRounter, Router, Route} from "react-router-dom"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-let dataArr = fetch("/api").then((response) => response.json()).then((data) => data)
+let dataArr = []
 
-console.log(dataArr)
+fetch("/api").then((response) => response.json()).then((data) => console.log(data))
 
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <App></App>
 );
 
 // If you want to start measuring performance in your app, pass a function
