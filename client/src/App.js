@@ -70,45 +70,42 @@ function App() {
 
   function postSort(){
     let arr = []
-    if (all) {
-          arr.push("All")
-        } else {
-            if(other) {
-              arr.push("Other")
-            }
-            if (captain) {
-              arr.push("Captain")
-            }
-            if (lieutenant) {
-              arr.push("Lieutenant")
-            }
-            if (formerCap) {
-              arr.push("Former Captain")
-            }
-            if (sub) {
-              arr.push("Substitute Shinigami")
-            }
-            if (arrancar) {
-              arr.push("Arrancar")
-            }
-            if (espada) {
-              arr.push("Espada")
-            }
-            if (fullbring) {
-              arr.push("Fullbring")
-            }
-            if (quincy) {
-              arr.push("Quincy")
-            }
-            if (sternritter) {
-              arr.push("Sternritter")
-            }
-            if (Squad0) {
-              arr.push("Squad 0")
-            }
-        }
+
+    if(other) {
+      arr.push("Other")
+    }
+    if (captain) {
+      arr.push("Captain")
+    }
+    if (lieutenant) {
+      arr.push("Lieutenant")
+    }
+    if (formerCap) {
+      arr.push("Former Captain")
+    }
+    if (sub) {
+      arr.push("Substitute Shinigami")
+    }
+    if (arrancar) {
+      arr.push("Arrancar")
+    }
+    if (espada) {
+      arr.push("Espada")
+    }
+    if (fullbring) {
+      arr.push("Fullbring")
+    }
+    if (quincy) {
+      arr.push("Quincy")
+    }
+    if (sternritter) {
+      arr.push("Sternritter")
+    }
+    if (Squad0) {
+      arr.push("Squad 0")
+    }
         
-        return arr
+    return arr
   }
 
   useEffect(() => {
@@ -125,55 +122,67 @@ function App() {
       setbackend(data.data)
       console.log(data.message)
     })
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [captain, lieutenant, formerCap, all, other, sub, fullbring, espada, arrancar, quincy, Squad0, sternritter])
 
   return (
     <div>
-      <form>
-        <label htmlFor='all'>All Characters</label>
-        <input type='checkbox' id='all' onChange={() => setAll(!all)} defaultChecked></input>
+      <h1 className='title'>BLEACH<br/><span>Character Information</span></h1>
 
-        <label htmlFor='Captain'>Captain</label>
-        <input type='checkbox' id='Captain' onChange={() => setCaptain(!captain)}></input>
+      <div id="root2">
+        <form id='form_div'>
+          <label htmlFor='Captain'>Captain</label>
+          <input type='checkbox' id='Captain' onChange={() => setCaptain(!captain)}></input>
 
-        <label htmlFor='lie'>Lieutenant</label>
-        <input type='checkbox' id='lie' onChange={() => setLieutenant(!lieutenant)}></input>
+          <label htmlFor='lie'>Lieutenant</label>
+          <input type='checkbox' id='lie' onChange={() => setLieutenant(!lieutenant)}></input>
 
-        <label htmlFor='fc'>Former Captain</label>
-        <input type='checkbox' id='fc' onChange={() => setFormerCap(!formerCap)}></input>
+          <label htmlFor='fc'>Former Captain</label>
+          <input type='checkbox' id='fc' onChange={() => setFormerCap(!formerCap)}></input>
 
-        <label htmlFor='sub'>Substitute Shinigami</label>
-        <input type='checkbox' id='sub' onChange={() => setSub(!sub)}></input>
+          <label htmlFor='sub'>Substitute Shinigami</label>
+          <input type='checkbox' id='sub' onChange={() => setSub(!sub)}></input>
 
-        <label htmlFor='full'>Fullbring</label>
-        <input type='checkbox' id='full' onChange={() => setfullbring(!fullbring)}></input>
+          <label htmlFor='full'>Fullbring</label>
+          <input type='checkbox' id='full' onChange={() => setfullbring(!fullbring)}></input>
 
-        <label htmlFor='esp'>Espada</label>
-        <input type='checkbox' id='esp' onChange={() => setespada(!espada)}></input>
+          <label htmlFor='esp'>Espada</label>
+          <input type='checkbox' id='esp' onChange={() => setespada(!espada)}></input>
 
-        <label htmlFor='arr'>Arrancar</label>
-        <input type='checkbox' id='arr' onChange={() => setarrancar(!arrancar)}></input>
+          <label htmlFor='arr'>Arrancar</label>
+          <input type='checkbox' id='arr' onChange={() => setarrancar(!arrancar)}></input>
 
-        <label htmlFor='quin'>Quincy</label>
-        <input type='checkbox' id='quin' onChange={() => setquincy(!quincy)}></input>
+          <label htmlFor='quin'>Quincy</label>
+          <input type='checkbox' id='quin' onChange={() => setquincy(!quincy)}></input>
 
-        <label htmlFor='stern'>Sternritter</label>
-        <input type='checkbox' id='stern' onChange={() => setsternritter(!sternritter)}></input>
+          <label htmlFor='stern'>Sternritter</label>
+          <input type='checkbox' id='stern' onChange={() => setsternritter(!sternritter)}></input>
 
-        <label htmlFor='s0'>Squad 0</label>
-        <input type='checkbox' id='s0' onChange={() => setSquad0(!Squad0)}></input>
+          <label htmlFor='s0'>Squad 0</label>
+          <input type='checkbox' id='s0' onChange={() => setSquad0(!Squad0)}></input>
 
-        <label htmlFor='other'>Other</label>
-        <input type='checkbox' id='other' onChange={() => setother(!other)}></input>
-      </form>
-      <ol>
-        {(typeof backend === 'undefined')? <p>Loading...</p> :
-        backend.map((data, i) => (
-          <li key={i}>{data.Character} : {data.Sword} : {data.Position}</li>
-        ))}
-      </ol>
+          <label htmlFor='other'>Other</label>
+          <input type='checkbox' id='other' onChange={() => setother(!other)}></input>
+        </form>
+      <div id='content'>
+        <ul>
+          {(typeof backend === 'undefined')? <p>Loading...</p> :
+          backend.map((data, i) => (
+            <li key={i} className='chars'>
+              <div className='img-holder'>
+                <img src={data.img} alt={data.Character}></img>
+              </div>
+              <div className='desc'>
+                <h3>{data.Character}</h3>
+                <h4>{data.Display_Position}</h4>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
     </div>
   )
 }
 
-export default App
+export default App;

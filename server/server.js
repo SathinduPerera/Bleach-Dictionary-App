@@ -23,7 +23,7 @@ function filter (position, arr) {
 
 function sort(arr) {
     let sendArr = []
-    if(arr[0] == "All") {
+    if(arr[0] == "All" || arr.length === 0) {
         return data
     } else {
         data.forEach((element) => {

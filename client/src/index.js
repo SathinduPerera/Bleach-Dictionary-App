@@ -1,10 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './App.css';
 import App from './App';
+import { useState } from 'react';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRounter, Router, Route} from "react-router-dom"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+let dataArr = fetch("/api").then((response) => response.json()).then((data) => data)
+
+console.log(dataArr)
+
 root.render(
   <React.StrictMode>
     <App />
