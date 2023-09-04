@@ -1,20 +1,36 @@
 .title {
-  color: rgba(26, 133, 154, 0.685);
+  color: rgb(25, 94, 124);
   text-align: center;
+  font-family: Poppins;
   font-size: 4vw;
+  font-weight:900;
   line-height: 0.75;
+  margin: 30px 0px 30px 0px;
 }
 
 .title span{
-  font-size: 2vw;
+  font-size: 1.5vw;
+  margin-top: 10px;
+}
+
+.title img{
+  height: 100px;
+}
+
+#logo_div{
+  height: 100px;
+  display: inline-block;
 }
 
 #form_div{
   text-align: center;
   padding: 20px 35px;
-  margin: 20px 35px;
+  margin: 40px 35px;
   border-radius: 20px;
-  background-color: aliceblue;
+  background-image: linear-gradient(
+    rgba(242, 246, 255, 0.452), 
+    rgba(221, 221, 221, 0.575)
+  );
   height: fit-content;
 }
 
@@ -51,7 +67,7 @@ ul{
 }
 
 .chars{
-  background-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.753);
   padding: 20px;
   width: 550px;
   margin: 0px 30px 30px;
@@ -61,12 +77,13 @@ ul{
 }
 
 .options{
-  margin: 10px;
-  background-color:rgba(141, 202, 182, 0.308);
+  background-color: rgba(100, 144, 169, 1);
+  margin: 0px 10px;
   padding: 10px;
+  color: azure;
   border-radius: 10px;
   display: inline-block;
-  z-index: 200;
+  font-size: 0.83vw;
   transition: 0.2s;
 }
 
@@ -76,15 +93,27 @@ ul{
 
 .options:hover{
   transform: translateX(-5px);
+  background-color: rgba(214, 67, 56, 1);
+  color: aliceblue;
 }
 
 .options input{
   display: none;
 }
 
+#title_div{
+  background-image: linear-gradient(
+    rgba(240, 248, 255, 0.452),
+    rgba(240, 248, 255, 0.733)
+  );
+  padding: 5px 0px 1px 0px;
+}
+
 
 .chars:hover{
   transform: scale(1.1);
+  background-color: rgba(124, 178, 209, 0.735);
+  color: azure;
 }
 
 .chars img {

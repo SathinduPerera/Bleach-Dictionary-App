@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
+import Image from "./Images/logo_finished.png"
 
 function App() {
   const [backend, setbackend] = useState([{}])
@@ -107,7 +108,7 @@ function App() {
 
   function Checkbox({setFunction, position, value}) {
     return (
-      <div className='options' style={(value)?{backgroundColor:"rgba(141, 202, 182)"}:{backgroundColor:"rgba(141, 202, 182, 0.5)"}}>
+      <div className='options' style={(value)?{backgroundColor:"rgba(214, 67, 56, 1)"}:{color:"none"}}>
           <label htmlFor={position}>{position}</label>
           <input type='checkbox' id={position} onChange={setFunction} checked={value} className='option_check'></input>
       </div>
@@ -133,9 +134,12 @@ function App() {
 
   return (
     <div>
-      <h1 className='title'>BLEACH<br/><span>Character Information</span></h1>
+      <div id="title_div">
+      <h1 className='title'><div id="logo_div"><img src={Image} alt="logo"/></div><br/><span>Character Information</span></h1>
+      </div>
 
       <div id="root2">
+        <div>
         <div id='form_div'>
           <Checkbox setFunction={() => setCaptain(!captain)} position="Captain" value={captain}/>
           <Checkbox setFunction={() => setLieutenant(!lieutenant)} position="Lieutenant" value={lieutenant}/>
@@ -165,6 +169,7 @@ function App() {
             </li>
           ))}
         </ul>
+      </div>
       </div>
     </div>
     </div>
