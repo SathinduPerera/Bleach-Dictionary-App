@@ -24,7 +24,7 @@
 
 #form_div{
   text-align: center;
-  padding: 20px 35px;
+  padding: 10px 35px;
   margin: 40px 35px;
   border-radius: 20px;
   background-image: linear-gradient(
@@ -78,7 +78,7 @@ ul{
 
 .options{
   background-color: rgba(100, 144, 169, 1);
-  margin: 0px 10px;
+  margin: 10px;
   padding: 10px;
   color: azure;
   border-radius: 10px;
