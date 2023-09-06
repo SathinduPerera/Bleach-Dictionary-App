@@ -3,12 +3,21 @@ import { useState, useEffect } from 'react'
 import Image from "./Images/logo_finished.png"
 import {Link} from "react-router-dom"
 
-export function Descriptions({Character, Position}){
+export function Descriptions({Character, Position, Image, Desc}){
   return (
     <>
-    <h1 className='desc_title'>{Character}</h1>
-    <h2 className='desc_title'>{Position}</h2>
-    <Link to="/" className='links'>Back to Home</Link>
+    <div id='char_root'>
+      <div id="content_div" className='child'>
+      <h1 className='desc_title'>{Character}</h1>
+      <h2 className='desc_title'>{Position}</h2>
+      <p>{Desc}</p>
+      <Link to="/" className='links'>Back to Home</Link>
+      </div>
+      <div id='img_div' className='child'>
+        <img src={Image} alt={Character}/>
+        <p>{Desc}</p>
+      </div>
+    </div>
     </>
   );
 }

@@ -15,7 +15,7 @@ root.render(
       <Routes>
         <Route path='/' element={<App />}/>
         {characters.map((element, i) => (
-          <Route key={i} path={element.Character.toLowerCase()} element={<Descriptions Character={element.Character} Position={element.Position}/>}/>
+          <Route key={i} path={element.Character.toLowerCase()} element={<Descriptions Character={element.Character} Position={element.Position} Image={element.img} Desc={element.description}/>}/>
         ))}
       </Routes>
     </BrowserRouter>
