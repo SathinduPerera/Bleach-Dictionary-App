@@ -105,6 +105,11 @@ ul{
   display: none;
 }
 
+.links{
+  color: inherit;
+  text-decoration: inherit;
+}
+
 #title_div{
   background-image: linear-gradient(
     rgba(240, 248, 255, 0.452),

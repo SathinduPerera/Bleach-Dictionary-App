@@ -1,12 +1,14 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import Image from "./Images/logo_finished.png"
+import {Link} from "react-router-dom"
 
 export function Descriptions({Character, Position}){
   return (
     <>
     <h1 className='desc_title'>{Character}</h1>
     <h2 className='desc_title'>{Position}</h2>
+    <Link to="/" className='links'>Back to Home</Link>
     </>
   );
 }
@@ -167,6 +169,7 @@ export function App() {
         <ul>
           {(typeof backend === 'undefined')? <p>Loading...</p> :
           backend.map((data, i) => (
+            <Link to={data.Character} className='links'>
             <li key={i} className='chars'>
               <div className='img-holder'>
                 <img src={data.img} alt={data.Character}></img>
@@ -176,6 +179,7 @@ export function App() {
                 <h4>{data.Display_Position}</h4>
               </div>
             </li>
+            </Link>
           ))}
         </ul>
       </div>
