@@ -17,6 +17,10 @@
   height: 100px;
 }
 
+.desc_title{
+  color: aliceblue;
+}
+
 #logo_div{
   height: 100px;
   display: inline-block;

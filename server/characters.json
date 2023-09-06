@@ -4,7 +4,8 @@
         "Sword": "Katen Kyokotsu",
         "Position" : "Captain",
         "img" : "https://qph.cf2.quoracdn.net/main-qimg-0bdfd3f3604771686eeda8d5a6ea3b65-lq",
-        "Display_Position" : "Head Captain of the Gote 13"
+        "Display_Position" : "Head Captain of the Gote 13",
+        "href": "shunsui"
         
     },
     {
@@ -12,14 +13,23 @@
         "Sword": "Zangetsu",
         "Position": "Substitute Shinigami",
         "img" : "https://tse1.mm.bing.net/th?q=ichigo%20manga%20icon",
-        "Display_Position" : "Substitute Shinigami (Stationed in Karakura Town)"
+        "Display_Position" : "Substitute Shinigami (Stationed in Karakura Town)",
+        "href": "ichigo"
     },
     {
         "Character": "Genryusai Shigekuni Yamamoto",
         "Sword": "Ryujin Jakka",
         "Position": "Former Captain",
         "img" : "https://i.pinimg.com/564x/25/99/28/25992878abadd8372d8f232a80dfa3b0.jpg",
-        "Display_Position" : "Former Head Captain of the Gote 13"
+        "Display_Position" : "Former Head Captain of the Gote 13",
+        "href": "yammamoto"
+    },
+    {
+        "Character": "Chōjirō Sasakibe",
+        "Sword": "Gonryōmaru",
+        "Position": "Lieutenant",
+        "img" : "https://i.pinimg.com/564x/4d/94/1a/4d941ad7771adad43e6642a2aed25458.jpg",
+        "Display_Position" : "Former Lieutenant of Squad 1"
     },
     {
         "Character": "Byakuya Kuchiki",

@@ -2,7 +2,16 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import Image from "./Images/logo_finished.png"
 
-function App() {
+export function Descriptions({Character, Position}){
+  return (
+    <>
+    <h1 className='desc_title'>{Character}</h1>
+    <h2 className='desc_title'>{Position}</h2>
+    </>
+  );
+}
+
+export function App() {
   const [backend, setbackend] = useState([{}])
 
   const [captain, setCaptain] = useState(false);
@@ -176,4 +185,4 @@ function App() {
   )
 }
 
-export default App;
+// export default App; // when routing remove the default export 
