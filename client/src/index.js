@@ -5,11 +5,14 @@ import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRounter, Router, Route, useActionData} from "react-router-dom"
+import characters from "./client_chars.json"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 fetch('/api').then(response => response.json()).then(data => {
 })
+
+console.log(characters[0])
 
 root.render(
   <App></App>
