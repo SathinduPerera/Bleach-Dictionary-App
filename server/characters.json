@@ -15,6 +15,13 @@
         "Display_Position" : "Substitute Shinigami (Stationed in Karakura Town)"
     },
     {
+        "Character": "Genryusai Shigekuni Yamamoto",
+        "Sword": "Ryujin Jakka",
+        "Position": "Former Captain",
+        "img" : "https://i.pinimg.com/564x/3f/17/10/3f1710006ec1dd00bdfe865629eecf82.jpg",
+        "Display_Position" : "Former Head Captain"
+    },
+    {
         "Character": "Byakuya Kuchiki",
         "Sword": "Senbonsakura",
         "Position": "Captain",

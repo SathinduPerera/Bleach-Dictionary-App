@@ -50,6 +50,7 @@ function sort(arr) {
 
 app.get("/api", (req, res) => {
     res.json(data)
+    fs.writeFileSync("../client/src/client_chars.json", JSON.stringify(data))
 })
 
 // app.post("/api/post", (req, res) => {

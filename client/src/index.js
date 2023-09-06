@@ -3,15 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App.css';
 import App from './App';
-import { useState } from 'react';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRounter, Router, Route} from "react-router-dom"
+import {BrowserRounter, Router, Route, useActionData} from "react-router-dom"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-let dataArr = []
-
-// fetch("/api").then((response) => response.json()).then((data) => console.log(data))
+fetch('/api').then(response => response.json()).then(data => {
+})
 
 root.render(
   <App></App>
