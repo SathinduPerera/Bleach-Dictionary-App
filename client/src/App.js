@@ -10,12 +10,49 @@ export function Descriptions({Character, Position, Image, Desc}){
       <div id="content_div" className='child'>
       <h1 className='desc_title'>{Character}</h1>
       <h2 className='desc_title'>{Position}</h2>
-      <p>{Desc}</p>
+      <div>
+        <h2>Description</h2>
+        <p>A description of the Character</p>
+      </div>
+      <div>
+        <h2>Appearance</h2>
+        <p>The Appearence of the character</p>
+      </div>
+      <div>
+        <h2>Zanpakto</h2>
+        <h3>Name: Zanpakto</h3>
+        <h3>Bankai: Name of Bankai</h3>
+        <h2>Appearence</h2>
+        <p>The appearence of the zanpakto</p>
+        <h2>Abilities</h2>
+        <p>The abilities of the Shikai</p>
+        <h3>Bankai Abilities</h3>
+        <p>Describe the Bankai's powers</p>
+      </div>
       <Link to="/" className='links'>Back to Home</Link>
       </div>
       <div id='img_div' className='child'>
         <img src={Image} alt={Character}/>
-        <p>{Desc}</p>
+        <ol>
+          <li>Gender</li>
+          <li>Height</li>
+          <li>Weight</li>
+          <li>Eye Color</li>
+        </ol>
+        <ol>
+          <li>Zanpakto</li>
+          <li>Bankai</li>
+        </ol>
+        <ol>
+          <li>Current Position</li>
+          <li>Previous Position</li>
+          <li>Current Squad</li>
+          <li>Previous Squad</li>
+        </ol>
+        <ol>
+          <li>Family</li>
+          <li>Friends</li>
+        </ol>
       </div>
     </div>
     </>

@@ -21,6 +21,14 @@
   color: aliceblue;
 }
 
+#img_div{
+  width: fit-content;
+}
+
+#img_div img{
+  border-radius: 20px;
+}
+
 #logo_div{
   height: 100px;
   display: inline-block;
