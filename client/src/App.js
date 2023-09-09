@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import Image from "./Images/logo_finished.png"
 import {Link} from "react-router-dom"
 
-function Shinigami({Shikai, Bankai , BankaiFlag}) {
+export function Shinigami({Shikai, Bankai , BankaiFlag}) {
   return(
     <>
       <h2>Zanpakto Description</h2>
@@ -21,7 +21,7 @@ function Shinigami({Shikai, Bankai , BankaiFlag}) {
 
 }
 
-function Arrancar({Resurrección}) {
+export function Arrancar({Resurrección}) {
   return(
     <>
     <h2>Resurrección Description</h2>
@@ -35,10 +35,10 @@ function Arrancar({Resurrección}) {
 
 }
 
-function Quincy({Shrift}) {
+export function Quincy({Shrift}) {
   return(
     <>
-      <h2>Resurrección Description</h2>
+      <h2>Shrift Description</h2>
       <p>Description of shrift</p>
       <div>
         <h3>Shrift - {Shrift}</h3>
@@ -48,7 +48,7 @@ function Quincy({Shrift}) {
   )
 }
 
-function Fullbring({Fullbring}) {
+export function Fullbring({Fullbring}) {
   return(
     <>
       <h2>Fullbring Description</h2>
@@ -62,7 +62,7 @@ function Fullbring({Fullbring}) {
 }
 
 
-export function Descriptions({Character, Position, Image, Desc,HasBankai, Sword, Bankai}){
+export function Descriptions({Character, Position, Image, Desc,HasBankai, Sword, Bankai, display_comp}){
   return (
     <>
     <div id='char_root'>
@@ -86,6 +86,7 @@ export function Descriptions({Character, Position, Image, Desc,HasBankai, Sword,
           <p>About the characters abilities</p>
         </div>
         <div>
+          {display_comp}
         </div>
         <div>
           <Link to="/" className='links'>Back to Home</Link>

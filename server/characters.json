@@ -101,7 +101,7 @@
     },
     {
         "Character":"Kukaku Shiba",
-        "Sword": "Does not have a Shikai",
+        "Sword": "Does not use or have a zanpakto",
         "Bankai": "Does not have a Bankai",
         "Position":"Other",
         "img" : "https://i.pinimg.com/736x/90/55/a2/9055a24e78d21cfde3ee74575c49997a.jpg",
@@ -112,6 +112,7 @@
     {
         "Character": "Kūgo Ginjō",
         "Position":"Fullbring",
+        "Sword": "Cross of Scaffold",
         "img" : "https://thicc.mywaifulist.moe/waifus/44000/4b741774664fcdd14f9c7c3f4822f35a9add313361ab38a2ff3b5033ae4fc01f_thumb.jpg",
         "Display_Position" : "Fullbring (Leader of Xcution)",
         "HasBankai" : "nobankai",
@@ -128,7 +129,7 @@
     },
     {
         "Character": "Uryu Ishida",
-        "Sword": "Antithesis",
+        "Sword": "Shrift A : Antithesis",
         "Position": "Sternritter",
         "img" : "https://pbs.twimg.com/media/Fg5IyTgWIAQfLzD.jpg",
         "Display_Position" : "Sternritter A",
@@ -151,7 +152,7 @@
     },
     {
         "Character": "Yoruichi Shihōin",
-        "Sword": "",
+        "Sword": "Does not use or have a zanpakto",
         "Position": "Former Captain",
         "img" : "https://i.pinimg.com/564x/5f/73/31/5f733110ae0e10337d4adc6206e0707a.jpg",
         "Display_Position" : "Former Captain of the Punishment Squad"
@@ -167,14 +168,14 @@
     },
     {
         "Character": "Ikumi Unagiya",
-        "Sword": "N/A",
+        "Sword": "Does not use or have a zanpakto",
         "Position": "Human",
         "img": "https://i.pinimg.com/564x/0d/61/d3/0d61d39e4700d06d6a679ec10b6887ca.jpg",
         "Display_Position": "Owner and Manager of Unagiya Shop"
     },
     {
         "Character": "Jinta Hanakari",
-        "Sword": "",
+        "Sword": "Does not use or have a zanpakto",
         "Position": "Other",
         "img" : "https://i.pinimg.com/564x/35/5a/1b/355a1b1af0788328f347cdea149438b1.jpg",
         "Display_Position" : "Employee at Urahara's Shop"
