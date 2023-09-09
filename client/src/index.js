@@ -27,7 +27,7 @@ function renderCharacterAbilities(element) {
     case "Arrancar":
       return (<Arrancar Resurrección={element.Sword}/>)
     default:
-      return (<>Hello</>)
+      return (<></>)
   }
   // if(element.Position === "Quincy" || element.Position === "Sternritter"){
   //   return (<Quincy Shrift={element.Sword} />)
