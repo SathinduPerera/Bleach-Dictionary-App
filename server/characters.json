@@ -1,100 +1,139 @@
 [
     {
-        "Character": "Shunsui Kyoraku",
-        "Sword": "Katen Kyokotsu",
+        "Character": "Shunsui Kyōraku",
+        "Sword": "Katen Kyōkotsu",
+        "Bankai": "Katen Kyōkotsu: Karamatsu Shinjū",
         "Position" : "Captain",
         "img" : "https://qph.cf2.quoracdn.net/main-qimg-0bdfd3f3604771686eeda8d5a6ea3b65-lq",
         "Display_Position" : "Head Captain of the Gote 13",
-        "href": "shunsui",
-        "description": "Shunsui Sakuranosuke Jirō Kyōraku (京楽 次郎 総蔵佐 春水, Kyōraku no Jirō Sakuranosuke Shunsui) is the captain of the 1st Division and Captain-Commander of the Gotei 13. His lieutenants are his niece, Nanao Ise, and Genshirō Okikiba. He is the former captain of the 8th Division. Shunsui is a tall, light-skinned Shinigami with high cheekbones, grey eyes and long wavy brown hair. His hair is tied in a long ponytail and has long bangs that frame the left side of his face. He also has a noticeable amount of body hair on his chest, feet, and arms. He wears a Sugegasa straw hat and a pink, flowered lady's kimono, which he drapes across his shoulders and over his Shihakushō. Although his haori and obi sash are cheap, his pin-wheel hairpins are very expensive. He does not wear tabi with his sandals. He has thin facial hair around his mouth and on his cheeks. Over a hundred years before Sōsuke Aizen's defection, Shunsui only had facial hair on his upper mouth. After the battle with the Wandenreich, Shunsui wears an eyepatch over his right eye that was damaged during the conflict. The top half of his right ear is sliced off at a slight tilt with a scar along his right temple. As a child, Shunsui had shorter and messier hair. He wore a flower patterned kimono."
-        
+        "HasBankai" : "bankai"
     },
     {
         "Character": "Ichigo Kurosaki",
         "Sword": "Zangetsu",
+        "Bankai": "Tensa Zangetsu",
         "Position": "Substitute Shinigami",
         "img" : "https://tse1.mm.bing.net/th?q=ichigo%20manga%20icon",
         "Display_Position" : "Substitute Shinigami (Stationed in Karakura Town)",
-        "href": "ichigo"
+        "HasBankai" : "bankai"
     },
     {
         "Character": "Genryusai Shigekuni Yamamoto",
         "Sword": "Ryujin Jakka",
+        "Bankai": "Zanka No Tachi",
         "Position": "Former Captain",
         "img" : "https://i.pinimg.com/564x/25/99/28/25992878abadd8372d8f232a80dfa3b0.jpg",
         "Display_Position" : "Former Head Captain of the Gote 13",
-        "href": "yammamoto",
-        "description": "Genryūsai Shigekuni Yamamoto (山本元柳斎 重國, Yamamoto Genryūsai Shigekuni) was the captain of the 1st Division in the Gotei 13 and also the Captain-Commander of the whole Gotei 13. His lieutenant was Chōjirō Sasakibe. After being cast into Hell, he has gained the epithet of \"Founder of the Gotei\" (護廷開祖, Gotei Kaiso; Viz \"Court Guard Founder\"). Yamamoto is a fair-skinned man of average height. The oldest captain in the Gotei 13, he has aged into a elderly man with a bald head, deep wrinkles, hooked nose, and pronounced cheekbones. He has red eyes,[4] long eyebrows, long mustache, and a hip-length white beard secured by a purple band crossing down it. He has many scars on his body, with the two most prominent being a pair of long scars crossing above his right eye, one of which was left by his battle with his lieutenant.[5] In addition to the standard black shihakushō, he wears a captain's long-sleeved haori draped over his back instead of actually wearing it, with its size being greatly exaggerated. Despite his old and frail demeanor, often standing in a slouch, he in fact has a very muscular and well-defined built, which he only reveals when serious for battle, something which Shunsui Kyōraku claims is not seen too often. After his confrontation with Sōsuke Aizen, Yamamoto lost his left arm.[6]When he was much younger, Yamamoto had black hair on the sides of his head, and was bald on top. He had a tuft of hair sticking up at the back of his head in a topknot. He had thick but more manageable eyebrows and mustache with no beard. He had a single large scar on his forehead, which earned him the nickname \"Eijisai\" due to its shape. He had a prominent crease on his forehead and beneath his eyes, and shallow cheeks. He wore the typical Shinigami outfit, with the addition of a sleeveless captain's haori worn appropriately."
+        "HasBankai" : "bankai"
     },
     {
         "Character": "Chōjirō Sasakibe",
         "Sword": "Gonryōmaru",
+        "Bankai": "Kōkō Gonryō Rikyū",
         "Position": "Lieutenant",
         "img" : "https://i.pinimg.com/564x/4d/94/1a/4d941ad7771adad43e6642a2aed25458.jpg",
-        "Display_Position" : "Former Lieutenant of Squad 1"
+        "Display_Position" : "Former Lieutenant of Squad 1",
+        "HasBankai" : "bankai"
+
     },
     {
         "Character": "Byakuya Kuchiki",
-        "Sword": "Senbonsakura",
+        "Sword": "Senbonzakura",
+        "Bankai": "Senbonzakura Kageyoshi",
         "Position": "Captain",
         "img" : "https://i.pinimg.com/564x/ba/f7/f6/baf7f633e1d4090d5927f4a87ec8f4a2.jpg",
-        "Display_Position" : "Captain of Squad 6"
+        "Display_Position" : "Captain of Squad 6",
+        "HasBankai" : "bankai"
     },
     {
         "Character": "Renji Abarai",
         "Sword" : "Zabimaru",
+        "Bankai": "Sōō Zabimaru",
         "Position": "Lieutenant",
         "img" : "https://pbs.twimg.com/media/Ew1tfsoXEAUOMIF.jpg",
-        "Display_Position" : "Lieutenant of Squad 6"
+        "Display_Position" : "Lieutenant of Squad 6",
+        "HasBankai" : "bankai"
     },
     {
         "Character" : "Urahara Kisuke",
         "Sword" : "Benehime",
+        "Bankai": "Kannon Biraki Benehime Aratame",
         "Position": "Former Captain",
         "img" : "https://i.pinimg.com/736x/1c/50/18/1c5018dd7f7ef2f7fc6d0fcd06768b9d.jpg",
-        "Display_Position" : "Former Captain of Squad 12"
+        "Display_Position" : "Former Captain of Squad 12",
+        "HasBankai" : "bankai"
+    },
+    {
+        "Character": "Ikkaku Madarame",
+        "Sword": "Hōzukimaru",
+        "Bankai": "Ryūmon Hōzukimaru",
+        "Position": "Lieutenant",
+        "img": "https://i.pinimg.com/564x/1e/64/75/1e6475bc3c22e0be19b7e026dba47980.jpg",
+        "Display_Position": "Lieutenant of Squad 11",
+        "HasBankai": "bankai"
     },
     {
         "Character": "Isane Kotetsu",
         "Sword": "Itegumo",
+        "Bankai": "Has not achieved Bankai yet.",
         "Position": "Captain",
         "img" : "https://s3.amazonaws.com/comicgeeks/characters/avatars/53291.jpg?t=1664538007",
-        "Display_Position" : "Captain of Squad 4"
+        "Display_Position" : "Captain of Squad 4",
+        "HasBankai" : "nobankai"
     },
     {
         "Character": "Rangiku Matsumoto",
         "Sword": "Hineko",
+        "Bankai": "Has not achieved Bankai yet.",
         "Position": "Lieutenant",
         "img" : "https://i.pinimg.com/736x/08/93/04/08930401a3c6c07e81ed4e53534513cb.jpg",
-        "Display_Position" : "Lieutenant of Squad 10"
+        "Display_Position" : "Lieutenant of Squad 10",
+        "HasBankai" : "nobankai"
+    },
+    {
+        "Character": "Hanatarō Yamada",
+        "Sword": "Hisagomaru",
+        "Bankai": "Has not achieved Bankai yet.",
+        "Position": "Shinigami",
+        "img": "https://i.pinimg.com/564x/0c/36/2b/0c362b07c11304e6acdd4d75ad83f78c.jpg",
+        "Display_Position": "7th seat of Squad 4",
+        "HasBankai": "nobankai"
     },
     {
         "Character":"Kukaku Shiba",
-        "Sword": "N/A",
+        "Sword": "Does not have a Shikai",
+        "Bankai": "Does not have a Bankai",
         "Position":"Other",
         "img" : "https://i.pinimg.com/736x/90/55/a2/9055a24e78d21cfde3ee74575c49997a.jpg",
-        "Display_Position" : "Head of the Shiba Clan"
+        "Display_Position" : "Head of the Shiba Clan",
+        "HasBankai" : "nobankai",
+        "HasZanpakto" : "nozanpakto"
     },
     {
         "Character": "Kūgo Ginjō",
-        "Sword": "Cross of Scaffold",
         "Position":"Fullbring",
         "img" : "https://thicc.mywaifulist.moe/waifus/44000/4b741774664fcdd14f9c7c3f4822f35a9add313361ab38a2ff3b5033ae4fc01f_thumb.jpg",
-        "Display_Position" : "Fullbring (Leader of Xcution)"
+        "Display_Position" : "Fullbring (Leader of Xcution)",
+        "HasBankai" : "nobankai",
+        "HasZanpakto" : "zanpakto"
     },
     {
         "Character": "Shinji Hirako",
         "Sword": "Sakanade",
+        "Bankai": "Sakashima Yokoshima Happōfusagari",
         "Position": "Captain",
         "img" : "https://pbs.twimg.com/media/E3Sen1kWQAIyoy4.jpg",
-        "Display_Position" : "Captain of Squad 5"
+        "Display_Position" : "Captain of Squad 5",
+        "HasBankai" : "bankai"
     },
     {
         "Character": "Uryu Ishida",
         "Sword": "Antithesis",
         "Position": "Sternritter",
         "img" : "https://pbs.twimg.com/media/Fg5IyTgWIAQfLzD.jpg",
-        "Display_Position" : "Sternritter A"
+        "Display_Position" : "Sternritter A",
+        "HasBankai" : "bankai",
+        "HasZanpakto" : "zanpakto"
     },
     {
         "Character": "Ichibe Hyosube",
@@ -120,9 +159,18 @@
     {
         "Character": "Rukia Kuchiki",
         "Sword": "Sode No Shirayuki",
+        "Bankai": "Hakka No Togame",
         "Position": "Captain",
         "img" : "https://i.pinimg.com/564x/34/0c/2f/340c2f5cd5f034ce4c82fac209894cab.jpg",
-        "Display_Position" : "Captain of Squad 13"
+        "Display_Position" : "Captain of Squad 13",
+        "HasBankai": "bankai"
+    },
+    {
+        "Character": "Ikumi Unagiya",
+        "Sword": "N/A",
+        "Position": "Human",
+        "img": "https://i.pinimg.com/564x/0d/61/d3/0d61d39e4700d06d6a679ec10b6887ca.jpg",
+        "Display_Position": "Owner and Manager of Unagiya Shop"
     },
     {
         "Character": "Jinta Hanakari",

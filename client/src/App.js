@@ -3,57 +3,119 @@ import { useState, useEffect } from 'react'
 import Image from "./Images/logo_finished.png"
 import {Link} from "react-router-dom"
 
-export function Descriptions({Character, Position, Image, Desc}){
+function Shinigami({Shikai, Bankai , BankaiFlag}) {
+  return(
+    <>
+      <h2>Zanpakto Description</h2>
+      <p>Description of zanpakto and bankai if character has achived it</p>
+      <div>
+        <h3>Shikai - {Shikai}</h3>
+        <p>Shikai abilities</p>
+      </div>
+      <div className={BankaiFlag}>
+        <h3>Bankai - {Bankai}</h3>
+        <p>Bankai Abilities</p>
+      </div>
+    </>
+  )
+
+}
+
+function Arrancar({Resurrección}) {
+  return(
+    <>
+    <h2>Resurrección Description</h2>
+    <p>Description of Resurrección</p>
+    <div>
+      <h3>Resurrección - {Resurrección}</h3>
+      <p>Resurrección abilities</p>
+    </div>
+  </>
+  )
+
+}
+
+function Quincy({Shrift}) {
+  return(
+    <>
+      <h2>Resurrección Description</h2>
+      <p>Description of shrift</p>
+      <div>
+        <h3>Shrift - {Shrift}</h3>
+        <p>shrift abilities</p>
+      </div>
+     </>
+  )
+}
+
+function Fullbring({Fullbring}) {
+  return(
+    <>
+      <h2>Fullbring Description</h2>
+      <p>Description of Fullbring</p>
+      <div>
+        <h3>Fullbring - {Fullbring}</h3>
+        <p>Fullbring abilities</p>
+      </div>
+     </>
+  )
+}
+
+
+export function Descriptions({Character, Position, Image, Desc,HasBankai, Sword, Bankai}){
   return (
     <>
     <div id='char_root'>
       <div id="content_div" className='child'>
-      <h1 className='desc_title'>{Character}</h1>
-      <h2 className='desc_title'>{Position}</h2>
-      <div>
-        <h2>Description</h2>
-        <p>A description of the Character</p>
-      </div>
-      <div>
-        <h2>Appearance</h2>
-        <p>The Appearence of the character</p>
-      </div>
-      <div>
-        <h2>Zanpakto</h2>
-        <h3>Name: Zanpakto</h3>
-        <h3>Bankai: Name of Bankai</h3>
-        <h2>Appearence</h2>
-        <p>The appearence of the zanpakto</p>
-        <h2>Abilities</h2>
-        <p>The abilities of the Shikai</p>
-        <h3>Bankai Abilities</h3>
-        <p>Describe the Bankai's powers</p>
-      </div>
-      <Link to="/" className='links'>Back to Home</Link>
-      </div>
-      <div id='img_div' className='child'>
-        <img src={Image} alt={Character}/>
-        <ol>
-          <li>Gender</li>
-          <li>Height</li>
-          <li>Weight</li>
-          <li>Eye Color</li>
-        </ol>
-        <ol>
-          <li>Zanpakto</li>
-          <li>Bankai</li>
-        </ol>
-        <ol>
-          <li>Current Position</li>
-          <li>Previous Position</li>
-          <li>Current Squad</li>
-          <li>Previous Squad</li>
-        </ol>
-        <ol>
-          <li>Family</li>
-          <li>Friends</li>
-        </ol>
-      </div>
+        <h1 className='desc_title'>{Character}</h1>
+        <h2 className='desc_title'>{Position}</h2>
+        <div>
+          <h2>Description</h2>
+          <p>A description of the Character</p>
+        </div>
+        <div>
+          <h2>Appearance</h2>
+          <p>The Appearence of the character</p>
+        </div>
+        <div>
+          <h2>Personality</h2>
+          <p>The Personality of the character</p>
+        </div>
+        <div>
+          <h2>Abilities</h2>
+          <p>About the characters abilities</p>
+        </div>
+        <div>
+        </div>
+        <div>
+          <Link to="/" className='links'>Back to Home</Link>
+        </div>
+        </div>
+        <div id='img_div' className='child'>
+          <div id='imgHolder'>
+            <img src={Image} alt={Character}/>
+          </div>
+          <ol>
+            <li>Gender</li>
+            <li>Height</li>
+            <li>Weight</li>
+            <li>Eye Color</li>
+          </ol>
+          <ol>
+            <li>Shikai - {Sword}</li>
+            <li>Bankai - {Bankai}</li>
+          </ol>
+          <ol>
+            <li>Current Position</li>
+            <li>Previous Position</li>
+            <li>Current Squad</li>
+            <li>Previous Squad</li>
+          </ol>
+          <ol>
+            <li>Family</li>
+            <li>Friends</li>
+          </ol>
+        </div>
     </div>
     </>
   );
@@ -66,6 +128,7 @@ export function App() {
   const [lieutenant, setLieutenant] = useState(false);
   const [formerCap, setFormerCap] = useState(false);
   const [sub, setSub] = useState(false);
+  const [shinigami, setshinigami] = useState(false);
   const [other, setother] = useState(false);
   const [fullbring, setfullbring] = useState(false);
   const [Squad0, setSquad0] = useState(false);
@@ -73,6 +136,7 @@ export function App() {
   const [espada, setespada] = useState(false);
   const [quincy, setquincy] = useState(false);
   const [sternritter, setsternritter] = useState(false);
+  const [human, sethuman] = useState(false);
 
   useEffect(() => {
     fetch("/api").then(
@@ -159,6 +223,12 @@ export function App() {
     if (Squad0) {
       arr.push("Squad 0")
     }
+    if(human) {
+      arr.push("Human")
+    }
+    if(shinigami) {
+      arr.push("Shinigami")
+    }
         
     return arr
   }
@@ -187,7 +257,7 @@ export function App() {
       console.log(data.message)
     })
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [captain, lieutenant, formerCap, other, sub, fullbring, espada, arrancar, quincy, Squad0, sternritter])
+  }, [captain, lieutenant, formerCap, other, sub, fullbring, espada, arrancar, quincy, Squad0, sternritter, human, shinigami])
 
   return (
     <div>
@@ -201,6 +271,7 @@ export function App() {
           <Checkbox setFunction={() => setCaptain(!captain)} position="Captain" value={captain}/>
           <Checkbox setFunction={() => setLieutenant(!lieutenant)} position="Lieutenant" value={lieutenant}/>
           <Checkbox setFunction={() => setFormerCap(!formerCap)} position="Former Captain" value={formerCap}/>
+          <Checkbox setFunction={() => setshinigami(!shinigami)} position="Shinigami" value={shinigami}/>
           <Checkbox setFunction={() => setSub(!sub)} position="Substitute Shinigami" value={sub}/>
           <Checkbox setFunction={() => setfullbring(!fullbring)} position="Fullbring" value={fullbring}/>
           <Checkbox setFunction={() => setespada(!espada)} position="Espada" value={espada}/>
@@ -209,6 +280,7 @@ export function App() {
           <Checkbox setFunction={() => setsternritter(!sternritter)} position="Sternritter" value={sternritter}/>
           <Checkbox setFunction={() => setSquad0(!Squad0)} position="Squad 0" value={Squad0}/>
           <Checkbox setFunction={() => setother(!other)} position="Other" value={other}/>
+          <Checkbox setFunction={() => sethuman(!human)} position="Human" value={human}/>
         </div>
 
       <div id='content'>
@@ -236,3 +308,4 @@ export function App() {
 }
 
 // export default App; // when routing remove the default export 
+

@@ -23,11 +23,42 @@
 
 #img_div{
   width: fit-content;
+  margin-left: 20px;
 }
 
 #img_div img{
+  height: 300px;
+}
+
+#imgHolder{
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child{
+  background-color: rgba(240, 248, 255, 0.301);
+  padding: 30px 40px;
   border-radius: 20px;
 }
+
+.nobankai{
+  display: none;
+}
+
+
+#char_root{
+  text-align: justify;
+  color: aliceblue;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+}
+
 
 #logo_div{
   height: 100px;
@@ -116,29 +147,6 @@ ul{
 .links{
   color: inherit;
   text-decoration: inherit;
-}
-
-.child{
-  background-color: rgba(240, 248, 255, 0.301);
-  padding: 30px 40px;
-  border-radius: 20px;
-}
-
-
-#char_root{
-  text-align: justify;
-  color: aliceblue;
-  display: inline-grid;
-  grid-template-columns: 70% 30%;
-  padding: 20px;
-}
-
-#img_div{
-  margin-left: 20px;
-}
-
-#img_div img{
-  height: 300px;
 }
 
 #title_div{
