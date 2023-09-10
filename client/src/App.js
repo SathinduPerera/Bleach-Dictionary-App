@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import Image from "./Images/logo_finished.png"
 import {Link} from "react-router-dom"
 
-export function Shinigami({Shikai, Bankai , BankaiFlag}) {
+export function Shinigami({Release1, Release2, Shikai, Bankai , BankaiFlag}) {
   return(
     <>
       <h2>Zanpakto Description</h2>
@@ -97,10 +97,10 @@ export function Descriptions({Character, Position, Image, Desc,HasBankai, Sword,
             <img src={Image} alt={Character}/>
           </div>
           <ol>
-            <li>Gender</li>
-            <li>Height</li>
-            <li>Weight</li>
-            <li>Eye Color</li>
+            <li>Gender - </li>
+            <li>Height - </li>
+            <li>Weight - </li>
+            <li>Eye Color - </li>
           </ol>
           <ol>
             <li>Shikai - {Sword}</li>

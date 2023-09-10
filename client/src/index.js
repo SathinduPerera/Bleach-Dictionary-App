@@ -21,7 +21,7 @@ function renderCharacterAbilities(element) {
     case "Shinigami":
     case "Substitute Shinigami":
     case "Squad 0":
-      return (<Shinigami Shikai={element.Sword} Bankai={element.Bankai} BankaiFlag={element.HasBankai}/>)
+      return (<Shinigami Shikai={element.Shikai} Bankai={element.Bankai} BankaiFlag={element.HasBankai}/>)
     case "Fullbring":
       return (<Fullbring Fullbring={element.Sword}/>)
     case "Arrancar":

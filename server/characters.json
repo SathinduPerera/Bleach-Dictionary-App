@@ -1,7 +1,7 @@
 [
     {
         "Character": "Shunsui Kyōraku",
-        "Sword": "Katen Kyōkotsu",
+        "Shikai": "Katen Kyōkotsu",
         "Bankai": "Katen Kyōkotsu: Karamatsu Shinjū",
         "Position" : "Captain",
         "img" : "https://qph.cf2.quoracdn.net/main-qimg-0bdfd3f3604771686eeda8d5a6ea3b65-lq",
@@ -10,7 +10,7 @@
     },
     {
         "Character": "Ichigo Kurosaki",
-        "Sword": "Zangetsu",
+        "Shikai": "Zangetsu",
         "Bankai": "Tensa Zangetsu",
         "Position": "Substitute Shinigami",
         "img" : "https://tse1.mm.bing.net/th?q=ichigo%20manga%20icon",
@@ -19,7 +19,7 @@
     },
     {
         "Character": "Genryusai Shigekuni Yamamoto",
-        "Sword": "Ryujin Jakka",
+        "Shikai": "Ryujin Jakka",
         "Bankai": "Zanka No Tachi",
         "Position": "Former Captain",
         "img" : "https://i.pinimg.com/564x/25/99/28/25992878abadd8372d8f232a80dfa3b0.jpg",
@@ -28,7 +28,7 @@
     },
     {
         "Character": "Chōjirō Sasakibe",
-        "Sword": "Gonryōmaru",
+        "Shikai": "Gonryōmaru",
         "Bankai": "Kōkō Gonryō Rikyū",
         "Position": "Lieutenant",
         "img" : "https://i.pinimg.com/564x/4d/94/1a/4d941ad7771adad43e6642a2aed25458.jpg",
@@ -38,7 +38,7 @@
     },
     {
         "Character": "Byakuya Kuchiki",
-        "Sword": "Senbonzakura",
+        "Shikai": "Senbonzakura",
         "Bankai": "Senbonzakura Kageyoshi",
         "Position": "Captain",
         "img" : "https://i.pinimg.com/564x/ba/f7/f6/baf7f633e1d4090d5927f4a87ec8f4a2.jpg",
@@ -47,7 +47,7 @@
     },
     {
         "Character": "Renji Abarai",
-        "Sword" : "Zabimaru",
+        "Shikai" : "Zabimaru",
         "Bankai": "Sōō Zabimaru",
         "Position": "Lieutenant",
         "img" : "https://pbs.twimg.com/media/Ew1tfsoXEAUOMIF.jpg",
@@ -56,7 +56,7 @@
     },
     {
         "Character" : "Urahara Kisuke",
-        "Sword" : "Benehime",
+        "Shikai" : "Benehime",
         "Bankai": "Kannon Biraki Benehime Aratame",
         "Position": "Former Captain",
         "img" : "https://i.pinimg.com/736x/1c/50/18/1c5018dd7f7ef2f7fc6d0fcd06768b9d.jpg",
@@ -65,7 +65,7 @@
     },
     {
         "Character": "Ikkaku Madarame",
-        "Sword": "Hōzukimaru",
+        "Shikai": "Hōzukimaru",
         "Bankai": "Ryūmon Hōzukimaru",
         "Position": "Lieutenant",
         "img": "https://i.pinimg.com/564x/1e/64/75/1e6475bc3c22e0be19b7e026dba47980.jpg",
@@ -74,7 +74,7 @@
     },
     {
         "Character": "Isane Kotetsu",
-        "Sword": "Itegumo",
+        "Shikai": "Itegumo",
         "Bankai": "Has not achieved Bankai yet.",
         "Position": "Captain",
         "img" : "https://s3.amazonaws.com/comicgeeks/characters/avatars/53291.jpg?t=1664538007",
@@ -83,7 +83,7 @@
     },
     {
         "Character": "Rangiku Matsumoto",
-        "Sword": "Hineko",
+        "Shikai": "Hineko",
         "Bankai": "Has not achieved Bankai yet.",
         "Position": "Lieutenant",
         "img" : "https://i.pinimg.com/736x/08/93/04/08930401a3c6c07e81ed4e53534513cb.jpg",
@@ -92,7 +92,7 @@
     },
     {
         "Character": "Hanatarō Yamada",
-        "Sword": "Hisagomaru",
+        "Shikai": "Hisagomaru",
         "Bankai": "Has not achieved Bankai yet.",
         "Position": "Shinigami",
         "img": "https://i.pinimg.com/564x/0c/36/2b/0c362b07c11304e6acdd4d75ad83f78c.jpg",
@@ -101,7 +101,7 @@
     },
     {
         "Character":"Kukaku Shiba",
-        "Sword": "Does not use or have a zanpakto",
+        "Shikai": "Does not use or have a zanpakto",
         "Bankai": "Does not have a Bankai",
         "Position":"Other",
         "img" : "https://i.pinimg.com/736x/90/55/a2/9055a24e78d21cfde3ee74575c49997a.jpg",
@@ -112,7 +112,7 @@
     {
         "Character": "Kūgo Ginjō",
         "Position":"Fullbring",
-        "Sword": "Cross of Scaffold",
+        "Shikai": "Cross of Scaffold",
         "img" : "https://thicc.mywaifulist.moe/waifus/44000/4b741774664fcdd14f9c7c3f4822f35a9add313361ab38a2ff3b5033ae4fc01f_thumb.jpg",
         "Display_Position" : "Fullbring (Leader of Xcution)",
         "HasBankai" : "nobankai",
@@ -120,7 +120,7 @@
     },
     {
         "Character": "Shinji Hirako",
-        "Sword": "Sakanade",
+        "Shikai": "Sakanade",
         "Bankai": "Sakashima Yokoshima Happōfusagari",
         "Position": "Captain",
         "img" : "https://pbs.twimg.com/media/E3Sen1kWQAIyoy4.jpg",
@@ -129,7 +129,7 @@
     },
     {
         "Character": "Uryu Ishida",
-        "Sword": "Shrift A : Antithesis",
+        "Shikai": "Shrift A : Antithesis",
         "Position": "Sternritter",
         "img" : "https://pbs.twimg.com/media/Fg5IyTgWIAQfLzD.jpg",
         "Display_Position" : "Sternritter A",
@@ -138,28 +138,29 @@
     },
     {
         "Character": "Ichibe Hyosube",
-        "Sword": "Ichimonji",
+        "Shikai": "Ichimonji",
+        "Bankai": "Shirafude Ichimonji (Shin'uchi)",
         "Position": "Squad 0",
         "img" : "https://i.pinimg.com/564x/0c/5a/41/0c5a41f563943550c33f03376d31a7b1.jpg",
         "Display_Position" : "Captain of Squad 0"
     },
     {
         "Character": "Tier Harribel",
-        "Sword": "Tiburón",
+        "Shikai": "Tiburón",
         "Position": "Espada",
         "img" : "https://i.pinimg.com/564x/8a/51/fb/8a51fb36f3f43978211d8ad96774c6df.jpg",
         "Display_Position" : "Espada No. 3"
     },
     {
         "Character": "Yoruichi Shihōin",
-        "Sword": "Does not use or have a zanpakto",
+        "Shikai": "Does not use or have a zanpakto",
         "Position": "Former Captain",
         "img" : "https://i.pinimg.com/564x/5f/73/31/5f733110ae0e10337d4adc6206e0707a.jpg",
         "Display_Position" : "Former Captain of the Punishment Squad"
     },
     {
         "Character": "Rukia Kuchiki",
-        "Sword": "Sode No Shirayuki",
+        "Shikai": "Sode No Shirayuki",
         "Bankai": "Hakka No Togame",
         "Position": "Captain",
         "img" : "https://i.pinimg.com/564x/34/0c/2f/340c2f5cd5f034ce4c82fac209894cab.jpg",
@@ -168,14 +169,14 @@
     },
     {
         "Character": "Ikumi Unagiya",
-        "Sword": "Does not use or have a zanpakto",
+        "Shikai": "Does not use or have a zanpakto",
         "Position": "Human",
         "img": "https://i.pinimg.com/564x/0d/61/d3/0d61d39e4700d06d6a679ec10b6887ca.jpg",
         "Display_Position": "Owner and Manager of Unagiya Shop"
     },
     {
         "Character": "Jinta Hanakari",
-        "Sword": "Does not use or have a zanpakto",
+        "Shikai": "Does not use or have a zanpakto",
         "Position": "Other",
         "img" : "https://i.pinimg.com/564x/35/5a/1b/355a1b1af0788328f347cdea149438b1.jpg",
         "Display_Position" : "Employee at Urahara's Shop"
