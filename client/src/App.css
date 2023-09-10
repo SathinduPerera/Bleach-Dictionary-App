@@ -50,6 +50,14 @@
   display: none;
 }
 
+.SquadSection{
+  display: none;
+}
+
+#IsCaptain, #IsLieutenant, #IsSubstituteShinigami, #IsFormerCaptain, #IsSquad0, #IsShinigami{
+  display: block;
+}
+
 
 #char_root{
   text-align: justify;

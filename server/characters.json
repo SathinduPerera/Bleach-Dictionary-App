@@ -112,7 +112,7 @@
     {
         "Character": "Kūgo Ginjō",
         "Position":"Fullbring",
-        "Shikai": "Cross of Scaffold",
+        "Fullbring": "Cross of Scaffold",
         "img" : "https://thicc.mywaifulist.moe/waifus/44000/4b741774664fcdd14f9c7c3f4822f35a9add313361ab38a2ff3b5033ae4fc01f_thumb.jpg",
         "Display_Position" : "Fullbring (Leader of Xcution)",
         "HasBankai" : "nobankai",
@@ -129,12 +129,11 @@
     },
     {
         "Character": "Uryu Ishida",
-        "Shikai": "Shrift A : Antithesis",
+        "Shrift": "Shrift A : Antithesis",
         "Position": "Sternritter",
         "img" : "https://pbs.twimg.com/media/Fg5IyTgWIAQfLzD.jpg",
         "Display_Position" : "Sternritter A",
-        "HasBankai" : "bankai",
-        "HasZanpakto" : "zanpakto"
+        "HasBankai" : "bankai"
     },
     {
         "Character": "Ichibe Hyosube",
@@ -146,7 +145,7 @@
     },
     {
         "Character": "Tier Harribel",
-        "Shikai": "Tiburón",
+        "Resurrección": "Tiburón",
         "Position": "Espada",
         "img" : "https://i.pinimg.com/564x/8a/51/fb/8a51fb36f3f43978211d8ad96774c6df.jpg",
         "Display_Position" : "Espada No. 3"
@@ -154,6 +153,7 @@
     {
         "Character": "Yoruichi Shihōin",
         "Shikai": "Does not use or have a zanpakto",
+        "Bankai": "Does not have a Bankai",
         "Position": "Former Captain",
         "img" : "https://i.pinimg.com/564x/5f/73/31/5f733110ae0e10337d4adc6206e0707a.jpg",
         "Display_Position" : "Former Captain of the Punishment Squad"

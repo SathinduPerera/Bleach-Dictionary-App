@@ -61,8 +61,53 @@ export function Fullbring({Fullbring}) {
   )
 }
 
+export function Zanpakto({Shikai, Bankai}){
+  return(
+    <section>
+    <h3>Zanpakutō</h3>
+    <ol>
+      <li>Shikai - {Shikai}</li>
+      <li>Bankai - {Bankai}</li>
+    </ol>
+  </section>
+  )
+}
 
-export function Descriptions({Character, Position, Image, Desc,HasBankai, Sword, Bankai, display_comp}){
+export function FullbringPower({Power, Fullbring}){
+  return(
+    <section>
+    <h3>Fullbring</h3>
+    <ol>
+      <li>Fullbring - {Fullbring}</li>
+    </ol>
+  </section>
+  )
+}
+
+export function Resurrección({Resurrección}){
+  return(
+    <section>
+    <h3>Resurrección</h3>
+    <ol>
+      <li>Resurrección - {Resurrección}</li>
+    </ol>
+  </section>
+  )
+}
+
+export function Shrift({Shrift}){
+  return(
+    <section>
+    <h3>Shrift</h3>
+    <ol>
+      <li>Shrift - {Shrift}</li>
+    </ol>
+  </section>
+  )
+}
+
+
+export function Descriptions({Character, Position, Image, Desc,HasBankai, Sword, Bankai, display_comp, display_abilities}){
   return (
     <>
     <div id='char_root'>
@@ -96,26 +141,34 @@ export function Descriptions({Character, Position, Image, Desc,HasBankai, Sword,
           <div id='imgHolder'>
             <img src={Image} alt={Character}/>
           </div>
-          <ol>
-            <li>Gender - </li>
-            <li>Height - </li>
-            <li>Weight - </li>
-            <li>Eye Color - </li>
-          </ol>
-          <ol>
-            <li>Shikai - {Sword}</li>
-            <li>Bankai - {Bankai}</li>
-          </ol>
-          <ol>
-            <li>Current Position</li>
-            <li>Previous Position</li>
-            <li>Current Squad</li>
-            <li>Previous Squad</li>
-          </ol>
-          <ol>
-            <li>Family</li>
-            <li>Friends</li>
-          </ol>
+          <section className='chars_attributes' id="physical">
+            <h3>Physical Attributes</h3>
+            <ol>
+              <li>Gender - </li>
+              <li>Height - </li>
+              <li>Weight - </li>
+              <li>Eye Color - </li>
+            </ol>
+          </section>
+          <>{display_abilities}</>
+          <section>
+            <h3>Professional Positions</h3>
+            <ol>
+              <li>Current Position</li>
+              <li>Previous Position</li>
+              <section id={"Is" + Position.replace(" ", "")} className='SquadSection'>
+                <li>Current Squad</li>
+                <li>Previous Squad</li>
+              </section>
+            </ol>
+          </section>
+          <section>
+            <h3>Relationships</h3>
+            <ol>
+              <li>Family</li>
+              <li>Friends</li>
+            </ol>
+          </section>
         </div>
     </div>
     </>
