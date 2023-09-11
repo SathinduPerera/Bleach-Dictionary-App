@@ -3,20 +3,46 @@ import { useState, useEffect } from 'react'
 import Image from "./Images/logo_finished.png"
 import {Link} from "react-router-dom"
 
-export function Shinigami({Release1, Release2, Shikai, Bankai , BankaiFlag}) {
+export function Shinigami({Shikai, Bankai , BankaiFlag, Shikai_desc, Bankai_desc, Zanpakto_Desc, Shikai_abilities, Bankai_Abilities}) {
   return(
-    <>
-      <h2>Zanpakto Description</h2>
-      <p>Description of zanpakto and bankai if character has achived it</p>
-      <div>
-        <h3>Shikai - {Shikai}</h3>
-        <p>Shikai abilities</p>
-      </div>
-      <div className={BankaiFlag}>
-        <h3>Bankai - {Bankai}</h3>
-        <p>Bankai Abilities</p>
-      </div>
-    </>
+    <div className='contents'>
+      <section className="zanpakto">
+      <h2 className='titles'>Zanpakto Description</h2>
+      <p>{Zanpakto_Desc}</p>
+      </section>
+          <section className="zanpakto">
+            <h2 className='titles'>Shikai - {Shikai}</h2>
+            <p>{Shikai_desc}</p>
+          </section>
+          <section className="zanpakto">
+          <h2 className='titles'>Shikai Abilities</h2>
+          {(typeof Shikai_abilities === "undefined")? (<p>Abilities not entered</p>) : (
+            Shikai_abilities.map((ability, i) => (
+              <section key={i}  className='content_sections'>
+                <h3><i>{ability.Ability}</i></h3>
+                <p>{ability.Ability_Desc}</p>
+              </section>
+            ))
+          )}
+          </section>
+        <section className="zanpakto">
+          <div className={BankaiFlag}>
+            <h2 className='titles'>Bankai - {Bankai}</h2>
+            <p>{Bankai_desc}</p>
+            <section className="zanpakto">
+          <h2 className='titles'>Bankai Abilities</h2>
+          {(typeof Bankai_Abilities === "undefined")? (<p>Abilities not entered</p>) : (
+            Bankai_Abilities.map((ability, i) => (
+              <section key={i}  className='content_sections'>
+                <h3><i>{ability.Ability}</i></h3>
+                <p>{ability.Ability_Desc}</p>
+              </section>
+            ))
+          )}
+          </section>
+          </div>
+        </section>
+    </div>
   )
 
 }
@@ -107,28 +133,38 @@ export function Shrift({Shrift}){
 }
 
 
-export function Descriptions({Character, Position, Image, Desc,HasBankai, Sword, Bankai, display_comp, display_abilities}){
+export function Descriptions({Character, Position, Image, display_comp, display_abilities, desc, appearence, personality, abilities, color}){
   return (
     <>
     <div id='char_root'>
-      <div id="content_div" className='child'>
-        <h1 className='desc_title'>{Character}</h1>
-        <h2 className='desc_title'>{Position}</h2>
-        <div>
-          <h2>Description</h2>
-          <p>A description of the Character</p>
+      <div id="content_div" className='child' style={{backgroundColor:color}}>
+        <section className='titles' id="title">
+          <h1 className='desc_title'>{Character}<br/><span id="sub_title">{Position}</span></h1>
+        </section>
+        <div className='contents'>
+          <h2 className='titles'>Description</h2>
+          <p>{desc}</p>
         </div>
-        <div>
-          <h2>Appearance</h2>
-          <p>The Appearence of the character</p>
+        <div className='contents'>
+          <h2 className='titles'>Appearance</h2>
+          <p>{appearence}</p>
         </div>
-        <div>
-          <h2>Personality</h2>
-          <p>The Personality of the character</p>
+        <div className='contents'>
+          <h2 className='titles'>Personality</h2>
+          <p>{personality}</p>
         </div>
-        <div>
-          <h2>Abilities</h2>
-          <p>About the characters abilities</p>
+        <div className='contents'>
+          <h2 className='titles'>Abilities</h2>
+          <div>
+          {(typeof abilities === "undefined")? (<p>Abilities not entered</p>) : (
+            abilities.map((ability, i) => (
+              <section key={i} className='content_sections'>
+                <h3><i>{ability.Ability}</i></h3>
+                <p>{ability.Ability_Desc}</p>
+              </section>
+            ))
+          )}
+          </div>
         </div>
         <div>
           {display_comp}
@@ -137,7 +173,7 @@ export function Descriptions({Character, Position, Image, Desc,HasBankai, Sword,
           <Link to="/" className='links'>Back to Home</Link>
         </div>
         </div>
-        <div id='img_div' className='child'>
+        <div id='img_div' className='child' style={{backgroundColor:color}}>
           <div id='imgHolder'>
             <img src={Image} alt={Character}/>
           </div>

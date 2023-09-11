@@ -21,7 +21,8 @@ function renderCharacterAbilities(element) {
     case "Shinigami":
     case "Substitute Shinigami":
     case "Squad 0":
-      return (<Shinigami Shikai={element.Shikai} Bankai={element.Bankai} BankaiFlag={element.HasBankai}/>)
+      return (<Shinigami Shikai={element.Shikai} Bankai={element.Bankai} BankaiFlag={element.HasBankai} Zanpakto_Desc={element.Zanpakto_Desc} Shikai_desc={element.Shikai_Desc} Bankai_desc={element.Bankai_Desc}
+      Shikai_abilities={element.Shikai_Abilities} Bankai_Abilities={element.Bankai_Abilities}/>)
     case "Fullbring":
       return (<Fullbring Fullbring={element.Shrift}/>)
     case "Arrancar":
@@ -57,8 +58,9 @@ root.render(
       <Routes>
         <Route path='/' element={<App />}/>
         {characters.map((element, i) => (
-          <Route key={i} path={element.Character.toLowerCase()} element={<Descriptions Character={element.Character} Position={element.Position} Image={element.img} Desc={element.description}
-          Sword={element.Sword} Bankai={element.Bankai} HasBankai={element.HasBankai} display_comp={renderCharacterAbilities(element)} display_abilities={renderDisplayAbilities(element)}/>}/>
+          <Route key={i} path={element.Character.toLowerCase()} element={<Descriptions Character={element.Character} Position={element.Position} Image={element.img}
+          display_comp={renderCharacterAbilities(element)} display_abilities={renderDisplayAbilities(element)} desc={element.Desc} appearence={element.Appearance} 
+          personality={element.Personality} abilities={element.Abilities} color={element.color} Zanpakto_desc={element.Zanpakto_Desc}/>}/>
         ))}
       </Routes>
     </BrowserRouter>
