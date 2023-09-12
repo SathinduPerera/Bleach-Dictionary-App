@@ -61,14 +61,22 @@ export function Arrancar({Resurrección}) {
 
 }
 
-export function Quincy({Shrift}) {
+export function Quincy({Shrift, Shrift_Abilities, Shrift_desc}) {
   return(
     <>
-      <h2>Shrift Description</h2>
-      <p>Description of shrift</p>
+    <div className='contents'>
+      <h2 className='titles'>Shrift Description</h2>
+      <p>{Shrift_desc}</p>
       <div>
-        <h3>Shrift - {Shrift}</h3>
-        <p>shrift abilities</p>
+        <h3 className='titles'>Shrift - {Shrift}</h3>
+          {typeof Shrift_Abilities === "undefined"? <p>Abilities not defined</p> : 
+          Shrift_Abilities.map((ability, i) => (
+            <section key={i}  className='content_sections'>
+            <h3><i>{ability.Ability}</i></h3>
+            <p>{ability.Ability_Desc}</p>
+          </section>
+          ))}
+      </div>
       </div>
      </>
   )
@@ -133,7 +141,13 @@ export function Shrift({Shrift}){
 }
 
 
-export function Descriptions({Character, Position, Image, display_comp, display_abilities, desc, appearence, personality, abilities, color}){
+
+export function Descriptions({Character, Position, Image, display_comp, display_abilities, desc, appearence, personality, abilities, color, characterList}){
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+  })
+
   return (
     <>
     <div id='char_root'>
@@ -173,7 +187,8 @@ export function Descriptions({Character, Position, Image, display_comp, display_
           <Link to="/" className='links'>Back to Home</Link>
         </div>
         </div>
-        <div id='img_div' className='child' style={{backgroundColor:color}}>
+        <div>
+        <div className='side_div child' style={{backgroundColor:color}}>
           <div id='imgHolder'>
             <img src={Image} alt={Character}/>
           </div>
@@ -205,6 +220,23 @@ export function Descriptions({Character, Position, Image, display_comp, display_
               <li>Friends</li>
             </ol>
           </section>
+        </div>
+        <div className='side_div child' style={{backgroundColor:color}}>
+            <div id='other_chars_title'><h3 >Other Characters</h3></div>
+            {(typeof characterList === "undefined")? <h2>No characters to Display</h2> : 
+            characterList.map((element, i) => (
+              <Link key={i} to={`/${element.Character}`} className='links'>
+              <div className='route_div'>
+              <div className='Route_img_div'>
+                <img src={element.img} alt={element.Character}/>
+              </div>
+              <div className='route_name'>
+              <p>{element.Character}</p>
+              </div>
+              </div>
+              </Link>
+            ))}
+        </div>
         </div>
     </div>
     </>
@@ -396,6 +428,5 @@ export function App() {
     </div>
   )
 }
-
 // export default App; // when routing remove the default export 
 

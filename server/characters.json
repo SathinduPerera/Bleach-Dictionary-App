@@ -91,13 +91,17 @@
             "Ability_Desc": "(〆の段 糸切鋏血染喉, Final Act: Thread-Cutting Scissors upon a Blood-Streaked Throat): After sheathing his swords, Shunsui winds a white thread around his opponent's throat multiple times before pulling it taut, leaving a deep cut in their throat that expands before blowing up their head. Completing his story, he likens this to the regretful man's partner ignoring his pleas and mercilessly shearing his throat."
         }]
     },
+
+
+
+
     {
         "Character": "Ichigo Kurosaki",
         "Shikai": "Zangetsu",
         "Bankai": "Tensa Zangetsu",
         "Position": "Substitute Shinigami",
         "color" : "rgba(168, 86, 50, 0.5)",
-        "img" : "https://tse1.mm.bing.net/th?q=ichigo%20manga%20icon",
+        "img" : "https://i.pinimg.com/564x/38/a1/b5/38a1b5926b56eafacb87756122d9dfee.jpg",
         "Display_Position" : "Substitute Shinigami (Stationed in Karakura Town)",
         "HasBankai" : "bankai",
         "Abilities": [{
@@ -133,6 +137,10 @@
             "Ability_Desc": "Shunsui has proven that he is incredibly durable, even by Shinigami standards. He was able to endure the attacks of Captain-Commander Yamamoto, whose Zanpakutō is the most devastating in all of Soul Society in terms of destructive power."
         }]
     },
+
+
+
+
     {
         "Character": "Genryusai Shigekuni Yamamoto",
         "Shikai": "Ryujin Jakka",
@@ -142,6 +150,10 @@
         "Display_Position" : "Former Head Captain of the Gote 13",
         "HasBankai" : "bankai"
     },
+
+
+
+
     {
         "Character": "Chōjirō Sasakibe",
         "Shikai": "Gonryōmaru",
@@ -152,6 +164,10 @@
         "HasBankai" : "bankai"
 
     },
+
+
+
+
     {
         "Character": "Byakuya Kuchiki",
         "Shikai": "Senbonzakura",
@@ -161,6 +177,10 @@
         "Display_Position" : "Captain of Squad 6",
         "HasBankai" : "bankai"
     },
+
+
+
+
     {
         "Character": "Renji Abarai",
         "Shikai" : "Zabimaru",
@@ -170,6 +190,10 @@
         "Display_Position" : "Lieutenant of Squad 6",
         "HasBankai" : "bankai"
     },
+
+
+
+
     {
         "Character" : "Urahara Kisuke",
         "Shikai" : "Benehime",
@@ -179,6 +203,10 @@
         "Display_Position" : "Former Captain of Squad 12",
         "HasBankai" : "bankai"
     },
+
+
+
+
     {
         "Character": "Ikkaku Madarame",
         "Shikai": "Hōzukimaru",
@@ -188,6 +216,10 @@
         "Display_Position": "Lieutenant of Squad 11",
         "HasBankai": "bankai"
     },
+
+
+
+
     {
         "Character": "Isane Kotetsu",
         "Shikai": "Itegumo",
@@ -197,6 +229,10 @@
         "Display_Position" : "Captain of Squad 4",
         "HasBankai" : "nobankai"
     },
+
+
+
+
     {
         "Character": "Rangiku Matsumoto",
         "Shikai": "Hineko",
@@ -206,6 +242,10 @@
         "Display_Position" : "Lieutenant of Squad 10",
         "HasBankai" : "nobankai"
     },
+
+
+
+
     {
         "Character": "Hanatarō Yamada",
         "Shikai": "Hisagomaru",
@@ -215,6 +255,10 @@
         "Display_Position": "7th seat of Squad 4",
         "HasBankai": "nobankai"
     },
+
+
+
+
     {
         "Character":"Kukaku Shiba",
         "Shikai": "Does not use or have a zanpakto",
@@ -225,6 +269,10 @@
         "HasBankai" : "nobankai",
         "HasZanpakto" : "nozanpakto"
     },
+
+
+
+
     {
         "Character": "Kūgo Ginjō",
         "Position":"Fullbring",
@@ -234,6 +282,10 @@
         "HasBankai" : "nobankai",
         "HasZanpakto" : "zanpakto"
     },
+
+
+
+
     {
         "Character": "Shinji Hirako",
         "Shikai": "Sakanade",
@@ -243,13 +295,67 @@
         "Display_Position" : "Captain of Squad 5",
         "HasBankai" : "bankai"
     },
+
+
+
+    
     {
         "Character": "Uryu Ishida",
         "Shrift": "Shrift A : Antithesis",
         "Position": "Sternritter",
         "img" : "https://pbs.twimg.com/media/Fg5IyTgWIAQfLzD.jpg",
         "Display_Position" : "Sternritter A",
-        "HasBankai" : "bankai"
+        "Desc": 
+        "Uryū Ishida (石田 雨竜, Ishida Uryū) is a Gemischt Quincy residing in Karakura Town. He is a doctor at Karakura Hospital, and a friend of Ichigo Kurosaki. He is a former member of the Wandenreich's Sternritter with the designation \"A\" - \"Antithesis\", formerly one of Yhwach's Schutzstaffel (親衛隊 (シュッツシュタッフェル), Shuttsushutafferu; German for \"Protective Echelon\", Japanese for \"Elite/Imperial Guards\"), and was once designated as his future successor.",
+        "Appearance": 
+        "Uryū Ishida is a tall and bespectacled young man with slender build. He has straight, chin-length black hair framing both sides of his face, and is fair-skinned with blue eyes. In school, Uryū wears the respective school uniform along with a tie. When confronting Hollows, he typically dons white Quincy clothes, with blue stripes representing the Quincy cross, and a mantle.\n\nSeventeen months after Aizen's defeat, Uryū's bangs hang mostly on the right-side of his face, and the rest hang behind his left ear, due to his glasses. After joining the Wandenreich, Uryū wears a white, double-breasted trench coat underneath a long white cape. The coat is fastened by three buttons emblazoned with the Quincy Zeichen on either side and a white belt with a gold buckle around the waist. Its shoulders are clasped to its neck, and the inside of the collar features a rectangular sigil on either side. Uryū also wears a pin shaped like a winged star circled by a halo on his right breast.",
+        "Personality": 
+        "Uryū is generally quiet and solitary, but tries harder to act cool when other people are around. Uryū is a member of the handicrafts club at Karakura High School, and is highly skilled at sewing. While Uryū does not mind stitching things for his friends, his sense of design forces him to add unexpected designs. For example, when he makes new clothing for Chad and Orihime, he replaces the single red line of Chad's original shirt with a red cross, saying that it was better, and since he could not copy the three white dots on Orihime's shirt, he instead adds frilly lace and two flower-like buds at the bottom. Uryū has low blood pressure and hates procrastination. The other things he hates are quite odd: buttons (despite being an expert in sewing) and the word \"haphazard.\" His favorite food is homemade mackerel miso stew. He likes Don Kanonji's television program \"Bura-Rei\" so much that he attends the live broadcast of the filming in Karakura Town.\n\nHe loves wearing a mantle, even though it serves no purpose other than to make him feel cooler, despite the fact that it hinders his movement, even keeping a spare with him. He has a tendency to say things melodramatically. Uryū has proven to be gullible at times. During an omake, he starts getting irritated at the fact that a weapon (a Zanpakutō in this case) has a will of own; Ichigo tricks him into thinking that Ginrei Kōjaku has actually materialized, to which Uryū sheds a happy tear.\n\nUryū operates on a moral ethic known as the \"Pride of the Quincy\" and has a strong sense of justice. He is very chivalrous, stating that he enacts justice on men who abuse or treat women badly, leading him to attempt to defend Rukia Kuchiki from Renji Abarai when he and Byakuya Kuchiki came to the Human World to arrest her, and protects Orihime Inoue during their time in Soul Society. Despite him disliking Shinigami, Uryū has learned to at least work closely with the ones whom Ichigo is closest with and has supposedly discarded most of his personal grudge. He also has a tendency to not use lethal force in battle, especially if he can win without doing so while often trying to simply incapacitate his opponent.",
+        "Abilities": [{
+                        "Ability" : "Auswählen Immunity",
+                        "Ability_Desc" : "According to Yhwach, Uryū is the only Gemischt Quincy to have survived the effects of his Auswählen nine years ago. Uryū not only survived, but he also retained all of his powers, unlike some Sternritter who lost powers due to the Auswählen."
+                    },
+                    {
+                       "Ability" : "Reishi Manipulation",
+                       "Ability_Desc" : "As a Quincy, he primarily absorbs spiritual energy from the atmosphere, and combines it with his own spiritual energy to form weapons. He has an easier time collecting this energy in environments with higher concentrations of Reishi such as in Soul Society or Hueco Mundo. He can manipulate spiritual energy for offensive purposes. Uryū commonly reshapes spiritual particles into various types of bow and arrows, but can also concentrate spiritual energy into the form of swords (Seele Schneider) or Gintō."
+                    },
+                    {
+                        "Ability": "Hirenkyaku Expert",
+                        "Ability_Desc": "Uryū is highly skilled in the use of the technique, keeping up with Captain Mayuri Kurotsuchi, who complimented his skill, stating it was a skill that was hard to master, especially at such a young age. Uryū has also learned a variation of the technique, which creates a platform of Reishi under the user's feet. Originally used while traveling to Hueco Mundo, he has found use for it outside of the Garganta, and can carry others with him on the platform." 
+                    },
+                    {
+                        "Ability": "Ransōtengai",
+                        "Ability_Desc": "(乱装天傀, Heavenly Wild Puppet Suit; Viz \"Disheveled Paradise Puppet\"): A high level technique which is quite rare among the Quincy. Uryū is well versed in the use of this ability, which was not possessed by a good majority of the former living Quincy. It allows the user to use spirit energy to manipulate their own body in the case of paralysis."
+                    },
+                    {
+                        "Ability" : "Gintō Expert",
+                        "Ability_Desc": "As one of the oldest and strongest captains in the Gotei 13, Shunsui possesses immense spiritual power. He, alongside Jūshirō Ukitake, are said to possess Reiatsu unmatched by their peers or predecessors."
+                    },
+                    {
+                        "Ability" : "Master Archer",
+                        "Ability_Desc": "Shunsui has incredible physical strength, calmly deflecting one of Sado's Reiryoku blasts with a single hand."
+                    },
+                    {
+                        "Ability" : "Expert Swordsman",
+                        "Ability_Desc": "Shunsui possesses tremendous stamina and endurance, remaining able to move around and fight as he usually does even after being shot multiple times by Lille Barro's Quincy: Vollständig."
+                    },
+                    {
+                        "Ability" : "Expert Hand-to-Hand Combatant",
+                        "Ability_Desc": "Shunsui has proven that he is incredibly durable, even by Shinigami standards. He was able to endure the attacks of Captain-Commander Yamamoto, whose Zanpakutō is the most devastating in all of Soul Society in terms of destructive power."
+                    },
+                    {
+                        "Ability": "Spiritual Awareness",
+                        "Ability_Desc": ""
+                    },
+                    {
+                        "Ability": "Excellent Intellect & Athleticism",
+                        "Ability_Desc": ""
+                    }],
+        "Shrift_Desc" : "Uryu's Shrift (Antithesis) does not grant him any aesthetic features or added physical enhancements. It only grants him the ability of Antithesis",
+        "Shrift_Abilities" : [{
+            "Ability" : "Antithesis",
+            "Ability_Desc" : "Antithesis (完全反立(アンチサーシス), Anchisāshisu; Japanese for \"Perfect Anti-Setup\"): Uryū's Schrift enables him to designate any two targets and completely reverse anything that has already occurred between the two of them. For example, if Uryū were to be greatly injured while fighting an opponent, he could reverse what occurred between himself and his enemy, simultaneously healing himself while grievously wounding his opponent."
+        }]
     },
     {
         "Character": "Ichibe Hyosube",

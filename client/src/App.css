@@ -1,9 +1,13 @@
+html{
+  margin: 0;
+}
+
 .title {
   color: rgb(25, 94, 124);
   text-align: center;
   font-family: Poppins;
   font-size: 4vw;
-  font-weight:900;
+  font-weight: 900;
   line-height: 0.75;
   margin: 30px 0px 30px 0px;
 }
@@ -23,22 +27,24 @@
 }
 
 .desc_title{
-  font-size: 2.5vw;
+  font-size: 3vw;
   color: aliceblue;
-  line-height: 2;
-  font-family: "Phudu";
+  line-height: 3vw;
+  font-family: "Phudu", cursive;
+  font-weight: 400;
 }
 
 #sub_title{
   font-size: 0.8em;
 }
 
-#img_div{
+.side_div{
   width: fit-content;
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 
-#img_div img{
+.side_div img{
   height: 300px;
 }
 
@@ -70,7 +76,7 @@
   margin-bottom: 50px;
   text-align: justify;
   background-color: rgba(0, 0, 0, 0.342);
-  padding: 20px;
+  padding: 20px 30px 20px 30px;
   border-radius: 10px;
   border: solid rgba(255, 255, 255, 0.199) 2px;
   
@@ -79,6 +85,37 @@
 .titles{
   text-align: center;
   font-style: italic;
+  font-family: "Phudu";
+  font-weight: 400;
+}
+
+.Route_img_div{
+  height: 70px;
+  width: 70px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid rgba(255, 255, 255, 0.116) 2px;
+  border-radius: 10px;
+}
+
+.route_div:hover{
+  transform: scale(1.1);
+}
+
+.Route_img_div img{
+  height: 70px;
+}
+
+#other_chars_title h3{
+  font-family: 'Phudu', cursive;
+  font-weight: 400;
+  text-align: center;
+}
+
+#other_char_title{
+  width: 100%;
 }
 
 .child{
@@ -89,9 +126,23 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(5px);
-  
-  
- 
+}
+
+.route_div{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.301);
+  margin: 20px 0px;
+  padding: 15px;
+  border: solid rgba(255, 255, 255, 0.116) 2px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.route_name{
+  vertical-align: middle;
+  margin: auto 10px;
+  text-align: justify;
 }
 
 .zanpakto{
@@ -226,8 +277,9 @@ ul{
     rgba(240, 248, 255, 0.384),
     rgba(240, 248, 255, 0.541)
   );
+  width: 100%;
+  
   padding: 5px 0px 1px 0px;
-  /* border-radius: 16px; */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(5px);
