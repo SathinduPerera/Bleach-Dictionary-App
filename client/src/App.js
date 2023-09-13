@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import Image from "./Images/logo_finished.png"
 import Logo from "./Images/white_logo.png"
+import BackToTopLogo from "./Images/BleachUpArrow.png"
 import {Link} from "react-router-dom"
 
 export function Shinigami({Shikai, Bankai , BankaiFlag, Shikai_desc, Bankai_desc, Zanpakto_Desc, Shikai_abilities, Bankai_Abilities}) {
@@ -218,14 +219,21 @@ export function Descriptions({Character, Position, Image, display_comp, display_
         </div>
         </div>
         <div id="BackToHome">
-          <Link to={"/"} className='links' id='homeLink'>
-              <div id='homeImgDiv'>
-                <img src={Logo} alt='Home Logo'/>
-              </div>
-              <div>
-              <p>Home</p>
-              </div>
-          </Link>
+            <Link to={"/"} className='links' id='homeLink'>
+                <div id='homeImgDiv'>
+                  <img src={Logo} alt='Home Logo'/>
+                </div>
+                <div>
+                <p>Home</p>
+                </div>
+            </Link>
+        </div>
+        <div id="BackToTop" style={{backgroundColor:color}} onClick={() => {
+                  window.scrollTo({top: 0, left: 0, behavior: "smooth"})
+                }}>
+                <div id='UpImgDiv'>
+                  <img src={BackToTopLogo} alt='Home Logo'/>
+                </div>
         </div>
         <div>
         <div className='side_div child' style={{backgroundColor:color}}>

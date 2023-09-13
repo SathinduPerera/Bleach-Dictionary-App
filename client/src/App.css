@@ -216,6 +216,35 @@ html{
   grid-gap: 5px;
 }
 
+#BackToTop{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+  border: solid rgba(255, 255, 255, 0.123) 2px;
+  transition: 0.2s;
+  z-index: 200;
+}
+
+#BackToTop:hover{
+  transform: scale(1.2);
+}
+
+#UpImgDiv{
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
 
 #form_div{
   text-align: center;
