@@ -12,13 +12,12 @@ font-family: 'Poppins', sans-serif; */
 body{
   font-family: 'Montserrat', sans-serif;
   font-size: 1vw;
-  margin: 0;
+  margin: 0px;
   background-image: linear-gradient(
     rgba(0, 81, 255, 0.2), 
     rgba(255, 0, 0, 0.2)
   ), url("./Images/gotei-13-shinigami-bleach-thousand-year-blood-war-hd-wallpaper-uhdpaper.com-780@1@i.jpg");
   background-attachment: fixed;
   background-size:cover;
-  
 
 }

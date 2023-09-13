@@ -96,6 +96,14 @@ export function Quincy({Schrift, Schrift_Abilities, Schrift_desc}) {
   )
 }
 
+// function backtoTop() {
+//   return (
+//     <h1>
+//       <img></img>
+//     </h1>
+//   )
+// }
+
 export function Fullbring({Fullbring, Fullbring_Desc, Fullbring_Abilities}) {
   return(
     <div className='contents'>
@@ -249,7 +257,7 @@ export function Descriptions({Character, Position, Image, display_comp, display_
             <div id='other_chars_title'><h3 >Other Characters</h3></div>
             {(typeof characterList === "undefined")? <h2>No characters to Display</h2> : 
             characterList.map((element, i) => (
-              <Link key={i} to={`/${element.Character}`} className='links'>
+              <Link to={`/${element.Character}`} className='links'>
               <div className='route_div'>
               <div className='Route_img_div'>
                 <img src={element.img} alt={element.Character}/>
@@ -433,8 +441,8 @@ export function App() {
         <ul>
           {(typeof backend === 'undefined')? <p>Loading...</p> :
           backend.map((data, i) => (
-            <Link to={data.Character} className='links'>
-            <li key={i} className='chars'>
+            <Link key={i} to={data.Character} className='links'>
+            <li className='chars'>
               <div className='img-holder'>
                 <img src={data.img} alt={data.Character}></img>
               </div>

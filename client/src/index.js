@@ -4,13 +4,10 @@ import './index.css';
 import './App.css';
 import {App} from './App';
 import {Descriptions, Quincy, Shinigami, Fullbring, Arrancar, Zanpakto, FullbringPower, Resurrección, Schrift} from './App'
-// import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import characters from "./client_chars.json"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
-fetch("/api").then(response => response.json()).then(data => data)
 
 function renderCharacterAbilities(element) {
   switch (element.Position){
