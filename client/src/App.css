@@ -17,6 +17,11 @@ html{
   margin-top: 10px;
 }
 
+#logo_div{
+  height: 100px;
+  display: inline-block;
+}
+
 .title img{
   height: 100px;
 }
@@ -173,10 +178,44 @@ html{
 }
 
 
-#logo_div{
-  height: 100px;
-  display: inline-block;
+#BackToHome{
+  position: fixed;
+  font-family: "Phudu",cursive;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  top: 50px;
+  left: 50px;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+  border: solid rgba(255, 255, 255, 0.123) 2px;
+  transition: 0.2s;
 }
+
+#BackToHome:hover{
+  transform: translateX(-20px);
+}
+
+#homeImgDiv{
+  height: 25px;
+  overflow: hidden;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#homeLink{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+}
+
 
 #form_div{
   text-align: center;

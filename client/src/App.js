@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import Image from "./Images/logo_finished.png"
+import Logo from "./Images/white_logo.png"
 import {Link} from "react-router-dom"
 
 export function Shinigami({Shikai, Bankai , BankaiFlag, Shikai_desc, Bankai_desc, Zanpakto_Desc, Shikai_abilities, Bankai_Abilities}) {
@@ -215,9 +216,16 @@ export function Descriptions({Character, Position, Image, display_comp, display_
         <div>
           {display_comp}
         </div>
-        <div>
-          <Link to="/" className='links'>Back to Home</Link>
         </div>
+        <div id="BackToHome">
+          <Link to={"/"} className='links' id='homeLink'>
+              <div id='homeImgDiv'>
+                <img src={Logo} alt='Home Logo'/>
+              </div>
+              <div>
+              <p>Home</p>
+              </div>
+          </Link>
         </div>
         <div>
         <div className='side_div child' style={{backgroundColor:color}}>
@@ -257,7 +265,7 @@ export function Descriptions({Character, Position, Image, display_comp, display_
             <div id='other_chars_title'><h3 >Other Characters</h3></div>
             {(typeof characterList === "undefined")? <h2>No characters to Display</h2> : 
             characterList.map((element, i) => (
-              <Link to={`/${element.Character}`} className='links'>
+              <Link key={i} to={`/${element.Character}`} className='links'>
               <div className='route_div'>
               <div className='Route_img_div'>
                 <img src={element.img} alt={element.Character}/>
