@@ -6,7 +6,7 @@
         "Position" : "Captain",
         "img" : "https://qph.cf2.quoracdn.net/main-qimg-0bdfd3f3604771686eeda8d5a6ea3b65-lq",
         "Display_Position" : "Head Captain of the Gote 13",
-        "color": "rgba(196, 26, 145, 0.3)",
+        "color": "rgba(255, 92, 138, 0.3)",
         "HasBankai" : "bankai",
         "Desc": 
         "Shunsui Sakuranosuke Jirō Kyōraku (京楽 次郎 総蔵佐 春水, Kyōraku no Jirō Sakuranosuke Shunsui) is the captain of the 1st Division and Captain-Commander of the Gotei 13. His lieutenants are his niece, Nanao Ise, and Genshirō Okikiba. He is the former captain of the 8th Division.",
@@ -277,10 +277,110 @@
         "Character": "Kūgo Ginjō",
         "Position":"Fullbring",
         "Fullbring": "Cross of Scaffold",
-        "img" : "https://thicc.mywaifulist.moe/waifus/44000/4b741774664fcdd14f9c7c3f4822f35a9add313361ab38a2ff3b5033ae4fc01f_thumb.jpg",
+        "img" : "https://i.pinimg.com/564x/5f/c2/10/5fc21069ee493a916020d100af44f84b.jpg",
         "Display_Position" : "Fullbring (Leader of Xcution)",
+        "color":"rgba(100, 0, 0, 0.3)",
         "HasBankai" : "nobankai",
-        "HasZanpakto" : "zanpakto"
+        "HasZanpakto" : "zanpakto",
+        "Desc": 
+        "Kūgo Ginjō (銀城 空吾, Ginjō Kūgo) is a Fullbringer and was the leader and member No. 001 of the organization known as Xcution. He is also a former Substitute Shinigami.",
+        "Appearance": 
+        "Ginjō is a tall and lean-built man with fair skin, brown eyes, and shoulder-length black hair that he keeps combed back, down to the nape of his neck. After being released from Tsukishima's Fullbring, Ginjō lets his hair become messy with strands hanging over his face. He wears black pants and a white sleeveless shirt, over which he wears a black jacket that has a fur-covered collar. He also wears a thin chain necklace that has an X-shaped pendant attached to it. After his fight with Tsukishima, he obtained a small vertical scar above his left eyebrow. When he was a Substitute Shinigami, his hair was much shorter and more unkempt.",
+        "Personality": 
+        "Ginjō is a calm and cool-headed individual. He is quite manipulative, such as when he attempted to hire Ikumi Unagiya to do a background check on Isshin Kurosaki, intentionally doing so in front of Ichigo in order to get his attention. According to a member of his group, he is a charming individual that apparently talked them into following him. He claims that he carries ramen around with him because he likes it. He is very cautious and caring for his friends, as he warns them in the presence of a great danger, fights together with them and is ready to even sacrifice himself in order to save a comrade. He also appears to be very concerned about innocent people and in order to not involve them, he only picks the empty buildings if a battle were to occur. Sometimes, he can play the part of a bad guy for the sake of someone else's good, but he's far from being good at acting and instead ends up making a \"cliched villain\" out of himself.\n\nWhen not under the influence of Tsukishima's Fullbring, Ginjō is very malicious and sadistic, delighted at Ichigo's emotional and physical pain. He also becomes very arrogant, bragging about his accomplishments and underestimating his opponents, and ruthless, planning to kill a blindly loyal subordinate just because he has more potential than he knows and may cause a danger in the future. He becomes excited very easily, showing a psychotic smile whenever he is excited, and enjoys taking risks, such as leaving Ishida out of Tsukishima's victims to give Ichigo a chance of figuring out what was going on. However despite his cruel manipulations, he was willing to leave Ichigo alive after stealing his Fullbring, and later admitted he did not want to have to kill him after failing to recruit him.",
+        "Abilities": [{
+                        "Ability" : "Master Swordsman",
+                        "Ability_Desc" : "Ginjō is a skillful swordsman, being able to hold his own against the likes of Tsukishima and Ichigo Kurosaki, having defeated the latter twice, though he lacked his Shinigami powers at the time. In addition to this, he was also able to take on the combined might of Jackie, Riruka, Giriko and Shishigawara using just his sword skills."
+                    },
+                    {
+                        "Ability" : "Enhanced Speed",
+                        "Ability_Desc" : "Due to his mastery of Fullbring, Ginjō can increase his speed and the height of his jumps by pulling on the soul of the concrete or air. Ginjō is quite fast, able to dodge successive attacks from Jackie, Riruka, and Giriko, all while they were using their Fullbring abilities. He is also able to get between a point blank attack by Tsukishima on Ichigo from a considerable distance, taking the attack himself in the process. He is capable of dodging Ichigo's incredibly fast and powerful sword swinging after the latter regains his Shinigami powers."
+                    },
+                    {
+                        "Ability": "Enhanced Endurance",
+                        "Ability_Desc": "Ginjō has a large amount of endurance, being able to take the full brunt of the explosion caused by Ichigo's Fullbring completing and still being able to stand afterwards." 
+                    },
+                    {
+                        "Ability": "Enhanced Strength",
+                        "Ability_Desc": "Ginjō has a high degree of physical strength allowing him to hold his large sword, and wield it with ease. He is able to use strength to push back a large Hollow to the ground."
+                    },
+                    {
+                        "Ability" : "Enhanced Durability",
+                        "Ability_Desc": "Ginjō is very durable, able to take an attack to the back from a Hollow from a high distance and immediately shrug it off."
+                    },
+                    {
+                        "Ability" : "Enhanced Reflexes",
+                        "Ability_Desc": "Ginjō has very sharp reflexes as he was able to deflect an Heilig Pfeil from Uryū Ishida with his sword without even looking at him."
+                    },
+                    {
+                        "Ability" : "Hand-to-Hand Combatant",
+                        "Ability_Desc": "Ginjō is able to fight barehanded, using swift movements to land blows on his opponents before they can even react."
+                    },
+                    {
+                        "Ability" : "Great Spiritual Power",
+                        "Ability_Desc": "As a former substitute Shinigami and the leader of Xcution, Ginjō boasts a great level of spiritual power. He possesses enough spiritual power for Ichigo to see his form \"bathed in Reiatsu\". Ginjō's Reiryoku is high enough for him to greatly injure Uryū Ishida in a fight and come out unscathed. He was also able to kill numerous Shinigami sent to apprehend him."
+                    },
+                    {
+                        "Ability" : "Spiritual Awareness",
+                        "Ability_Desc": "Ginjō is able to see and sense spiritual beings, such as Shinigami and Hollows, at a significant distance or determine what direction they are in. He was also able to sense Tsukishima's Reiatsu drastically decreasing, and tell how much time he had to live."
+                    }],
+        "Fullbring_Desc": "Cross of Scaffold (クロス·オブ·スキャッフォルド, Kurosu obu Sukyafforudo): Using Fullbring, Ginjō is able to transform the Saltire pendant on his necklace into a large, two-handed broadsword. The crossguard consists of a small red gem at the center and two straight ornate arms ending in simplistic version of a fleur-de-lis. The sword's handle runs through its guard, continuing on through a gold hollow space at the base of its blade. The handle is almost the same length of the blade itself. This part of the handle allows Ginjō to attack opponents at closer ranges.",
+        "Fullbring_Abilities": [{
+                                    "Ability" : "Energy Blade",
+                                    "Ability_Desc" : "By gripping the handle near the base of his broadsword's blade and swinging the Cross of Scaffold around, Ginjō can generate large amounts of light-green Reiryoku which sheathes itself over the blade. When he swings the sword at his desired target, the slash creates a massive explosion upon impact."
+                                },
+                                {
+                                    "Ability" : "Enhanced Cross of Scaffold",
+                                    "Ability_Desc" : "Ginjō places his Substitute Shinigami Badge onto his sword, merging it with his sword. In this form, the Cross of Scaffold is very similar to its original form, but with significant visual differences. The center portion of the cross-guard, which originally contained the small red stone, now has a small decorative skull with an 'X' over it. The handle in the hollow part of the blade resembles a spinal column, while the hollow portion takes on a dark, metallic look."
+                                },
+                                {
+                                    "Ability": "Fullbring Absorption",
+                                    "Ability_Desc": "Upon impaling a target on his blade, Ginjō is capable of absorbing another Fullbringer's powers into his enhanced Cross of Scaffold. This causes the Fullbring to break down and draws it into the sword. The effect of the ability causes what would be normally a physical injury to leave no actual wound." 
+                                },
+                                {
+                                    "Ability": "Ability Replication",
+                                    "Ability_Desc": "Upon absorption of one's Fullbring, he also incorporates their own Reiatsu into the attack, making it virtually identical to the original user. This allows Ginjō the ability to use any technique that was incorporated within the Fullbring."
+                                },
+                                {
+                                    "Ability" : "Invaders Must Die",
+                                    "Ability_Desc": "As a result of exchanging powers among all of the Xcution members as a sign of loyalty, Ginjō is able to stop Yukio from deactivating his Fullbring without his explicit orders, whilst he is in Yukio's Fullbring range."
+                                },
+                                {
+                                    "Ability" : "Clad-Type Fullbring",
+                                    "Ability_Desc": "After stealing Ichigo's Clad-type Fullbring, Ginjō's body is enveloped in an armored skeletal-inspired garb similar to the latter's. His chest is covered in a bone-like lattice resembling a ribcage, further extending downward to bony plates that cover his abdomen. His hands are clad in gloves, the tops of which resemble hand bones. He gains shoulder pads in the form of bone plates, and bone plate shin guards that extend to his bone knee-pad plates, which extend up to his mid thigh. He also gains a belt with a large X-shaped buckle. The armor is durable enough to withstand a direct hit from a Getsuga Tenshō from Ichigo's Shikai without any signs of damage."
+                                },
+                                {
+                                    "Ability" : "Getsuga Tenshō",
+                                    "Ability_Desc": "(月牙天衝, Moon Fang Heaven-Piercer): Ginjō is able to use Getsuga Tenshō, releasing a blast of highly condensed light-purple spiritual power through his sword in the shape of a large crescent moon. His Getsuga Tenshō is as powerful as Ichigo's own blast in Shikai."
+                                },
+                                {
+                                    "Ability" : "Fullbring Transference",
+                                    "Ability_Desc": "Ginjō is capable of transferring portions of the Fullbring he has absorbed to other Fullbringers. He utilizes this by cutting those he chooses to transfer the power to."
+                                },
+                                {
+                                    "Ability" : "Enhanced Spiritual Power",
+                                    "Ability_Desc": "After gaining part of Ichigo's reiatsu, Ginjō's own spiritual power increases greatly. His energy-based attacks become stronger, and he is able to fight Ichigo in his Shinigami form."
+                                },
+                                {
+                                    "Ability" : "Enhanced Energy Blast",
+                                    "Ability_Desc": "By gathering spiritual energy in his blade, Ginjō is able to unleash a powerful green blast, which then fires at the target. When used against Uryū, his blast was able to damage several buildings in the virtual Karakura Town."
+                                },
+                                {
+                                    "Ability" : "Bankai",
+                                    "Ability_Desc": "In his Bankai form, Ginjō's skeletal armor wraps more tightly around his form. The fur on his jacket turns red and becomes enlarged. He also gains fur pants and black shoes. Upon activating his Bankai, Ginjō's facial features change as well. His hair and eyebrows turn white, and his irises turn white with red sclera. A red cross-shaped marking also appears on the side of his face. The guard and the hilt of his sword gain a more skeletal appearance, with a rigid bone-like plate dividing the hollow portion of his sword and the blade. From his back extend four \"branches\" of energy, giving the shape of an \"X\" from behind him."
+                                },
+                                {
+                                    "Ability" : "Bankai Ability 1:\nEnhanced Spiritual Power",
+                                    "Ability_Desc": "Upon activating his Bankai, Ginjō's spiritual power increases immensely, making him capable of fighting on par with other Bankai-wielding opponents."
+                                },
+                                {
+                                    "Ability" : "Bankai Ability 2:\nEnhanced Getsuga Tenshō",
+                                    "Ability_Desc": "His sword retains the use of Getsuga Tenshō and is used in the same manner, but in an enhanced form. When used in Bankai, these potent blasts are black with a purple outline. His Getsuga Tenshō is as powerful as Ichigo's own blast in Bankai."
+                                },
+                                {
+                                    "Ability" : "Bankai Ability 3:\nEnergy Beam",
+                                    "Ability_Desc": "Ginjō can charge reddish-pink spiritual energy through the tip of his blade, and fire it in the form of a beam."
+                                }]
     },
 
 
@@ -301,10 +401,11 @@
     
     {
         "Character": "Uryu Ishida",
-        "Shrift": "Shrift A : Antithesis",
+        "Schrift": "Schrift A : Antithesis",
         "Position": "Sternritter",
         "img" : "https://pbs.twimg.com/media/Fg5IyTgWIAQfLzD.jpg",
         "Display_Position" : "Sternritter A",
+        "color" :"rgba(103, 152, 192, 0.3)",
         "Desc": 
         "Uryū Ishida (石田 雨竜, Ishida Uryū) is a Gemischt Quincy residing in Karakura Town. He is a doctor at Karakura Hospital, and a friend of Ichigo Kurosaki. He is a former member of the Wandenreich's Sternritter with the designation \"A\" - \"Antithesis\", formerly one of Yhwach's Schutzstaffel (親衛隊 (シュッツシュタッフェル), Shuttsushutafferu; German for \"Protective Echelon\", Japanese for \"Elite/Imperial Guards\"), and was once designated as his future successor.",
         "Appearance": 
@@ -329,34 +430,38 @@
                     },
                     {
                         "Ability" : "Gintō Expert",
-                        "Ability_Desc": "As one of the oldest and strongest captains in the Gotei 13, Shunsui possesses immense spiritual power. He, alongside Jūshirō Ukitake, are said to possess Reiatsu unmatched by their peers or predecessors."
+                        "Ability_Desc": "He is able to use the spiritual energy stored in the silver tubes to create similar effects to Kidō; Uryū can even use his own energy, rather than the energy stored in the silver tube. Gintō was his primary weapon of choice, albeit only, against an incomplete Arrancar during the Arrancar Invasion. He was only able to injure it before his father saved him, but this feat alone was great, as he could not use any of his Quincy abilities at the time."
                     },
                     {
                         "Ability" : "Master Archer",
-                        "Ability_Desc": "Shunsui has incredible physical strength, calmly deflecting one of Sado's Reiryoku blasts with a single hand."
+                        "Ability_Desc": "When a Quincy becomes more skilled using their Bow and Heilig Pfeil, they gain more power and precision with their arrows. This is similar to how a marksman gains skill and hits the target more frequently. Uryū Ishida has greatly increased his power and skill throughout his association with Ichigo Kurosaki, and is a prime example of this growth. He has great accuracy, able to instantly kill Hollows with one arrow. During the Ryoka Invasion, he fights Jirōbō Ikkanzaka, another projectile-type user, and easily defeats him. After defeating him, Uryū effortlessly fires two arrows through his Saketsu and Hakusui, and does the same to Cirucci Sanderwicci at the end of their fight."
                     },
                     {
                         "Ability" : "Expert Swordsman",
-                        "Ability_Desc": "Shunsui possesses tremendous stamina and endurance, remaining able to move around and fight as he usually does even after being shot multiple times by Lille Barro's Quincy: Vollständig."
+                        "Ability_Desc": "During his fight with Cirucci Sanderwicci, Uryū uses Seele Schneider as a sword expertly, and easily defeats her with it. Even though it is really an arrow, and his main prowess lies in archery and Quincy techniques, it is clear that Uryū has some ability with the sword. He also uses his Seele Schneider against Senbonzakura, and successfully holds his ground for a short time."
                     },
                     {
                         "Ability" : "Expert Hand-to-Hand Combatant",
-                        "Ability_Desc": "Shunsui has proven that he is incredibly durable, even by Shinigami standards. He was able to endure the attacks of Captain-Commander Yamamoto, whose Zanpakutō is the most devastating in all of Soul Society in terms of destructive power."
+                        "Ability_Desc": "While preferring to fight at mid to long-range to make full use of his Quincy powers, Uryū is also a highly capable close-range and bare-handed fighter. When a street gang came to Karakura High School to cause trouble, Uryū calmly approached them, and showed his skill by easily subduing them (albeit with some assistance from Ichigo). Like his weapon style, Uryū's bare-handed style is more about precise strikes than brute force."
                     },
                     {
                         "Ability": "Spiritual Awareness",
-                        "Ability_Desc": ""
+                        "Ability_Desc": "As a Quincy, Uryū can sense Hollows at a significant distance. He sensed a new Hollow in an area before either Rukia Kuchiki and Ichigo Kurosaki sensed its arrival. He also knew which direction it was in."
                     },
                     {
                         "Ability": "Excellent Intellect & Athleticism",
-                        "Ability_Desc": ""
+                        "Ability_Desc": "Aside from his Quincy powers, Uryū is well-trained in both body and mind, having substantial athletic abilities and a genius intellect. He uses his intelligence to find weak points in his opponents, even overcoming disadvantages he has through thinking on his feet. Due to keeping his physical abilities at their peak, Uryū can easily hold out against all but the most resilient opponents during a battle. He is able to deduce Ichigo's spiritual level, that Ichigo acquired his Shinigami powers in mid-May, and Rukia Kuchiki's real identity."
                     }],
-        "Shrift_Desc" : "Uryu's Shrift (Antithesis) does not grant him any aesthetic features or added physical enhancements. It only grants him the ability of Antithesis",
-        "Shrift_Abilities" : [{
+        "Schrift_Desc" : "Uryu's Schrift (Antithesis) does not grant him any aesthetic features or added physical enhancements. It only grants him the ability of Antithesis",
+        "Schrift_Abilities" : [{
             "Ability" : "Antithesis",
             "Ability_Desc" : "Antithesis (完全反立(アンチサーシス), Anchisāshisu; Japanese for \"Perfect Anti-Setup\"): Uryū's Schrift enables him to designate any two targets and completely reverse anything that has already occurred between the two of them. For example, if Uryū were to be greatly injured while fighting an opponent, he could reverse what occurred between himself and his enemy, simultaneously healing himself while grievously wounding his opponent."
         }]
     },
+
+
+
+
     {
         "Character": "Ichibe Hyosube",
         "Shikai": "Ichimonji",
@@ -365,13 +470,78 @@
         "img" : "https://i.pinimg.com/564x/0c/5a/41/0c5a41f563943550c33f03376d31a7b1.jpg",
         "Display_Position" : "Captain of Squad 0"
     },
+
+
+
+
     {
         "Character": "Tier Harribel",
         "Resurrección": "Tiburón",
         "Position": "Espada",
         "img" : "https://i.pinimg.com/564x/8a/51/fb/8a51fb36f3f43978211d8ad96774c6df.jpg",
-        "Display_Position" : "Espada No. 3"
+        "Display_Position" : "Espada No. 3",
+        "color":"rgba(252, 243, 0, 0.3)",
+        "Desc": 
+        "Tier Harribel (ティア・ハリベル, Tia Hariberu; Viz: Tier Halibel) is an Arrancar and the former Tres (3rd) Espada in Sōsuke Aizen's army until the latter's defeat. Sometime after Aizen's defeat, she becomes the de facto ruler of Hueco Mundo.",
+        "Appearance": 
+        "Harribel is a tall female Arrancar of curvaceous and well-endowed frame. She has olive skin, aqua green eyes, thick eyelashes, and short golden blonde hair; which she usually keeps messy with three braided locks. She wears a variation of the Arrancar jacket with a high collar, which covers the lower part of her face downward, while baring a good portion of the lower half of her large breasts. The jacket has a zipper running along its entire length, which is opened from the bottom upwards. It has a beige air filter on either side just below the trim. The jacket's sleeves completely envelop her arms, terminating in black glove-like extensions at her extremities, resembling the appearance of a cat's paw.\n\nThe remnants of her Hollow mask consist of the sides of her face, her mouth, and an extensive area below and around her neck extending down to, and also covering, her nipples. She usually hides these remnants from view with her jacket. Her Espada tattoo is placed on the left side of her right breast. The location of her Hollow hole is in her lower abdomen where her womb would be. Her appearance before she became an Arrancar mostly resembled her released state, but most of her body and face was covered by white Hollow bones, and her weapon was part of her arm, but her hair and eyes were exposed. Her mask wrapped around her head, with an extremely long and thin shark tail hanging from the back of her head. There were also pointed protrusions from her shoulders and elbows, as well as distinct grooves on her legs.",
+        "Personality": 
+        "Harribel is calm, taciturn, level-headed, and analytical, preferring to not engage in combat: she is content with silently observing both parties until the fighting reaches its conclusion. She strongly opposes the notion of killing others, especially if done to gain power, but when she is betrayed by Sōsuke Aizen, Harribel angrily attacks him, proving she can be quite aggressive and brutal when crossed. Harribel cares for her Fracción, being noticeably upset when she senses their presences fading, and angrily assaults Tōshirō Hitsugaya seconds after their defeat at the hands of Captain-Commander Genryūsai Shigekuni Yamamoto. Prior to her betrayal by him, she viewed Aizen and his powers in high regard.",
+        "Abilities": [{
+                        "Ability" : "Master Swordsman",
+                        "Ability_Desc" : "Harribel possesses tremendous skill in swordsmanship, able to strike with considerable power while leaving little room for enemy counters. Harribel is ambidextrous, able to switch between either hand mid-clash to leave even less time for her opponents to react. Her skills allow her to fight on even grounds with Tōshirō Hitsugaya, a captain-level Shinigami and a famous swordsmanship prodigy, and even defend herself against him with the aid of two lieutenant-level, mask-wielding Visored simultaneously."
+                    },
+                    {
+                       "Ability" : "Immense Spiritual Power",
+                       "Ability_Desc" : "Even before becoming an Arrancar, as a Vasto Lorde-Class Hollow, Harribel possessed tremendous Reiryoku. As an Arrancar and one of the top four members of the Espada, Harribel is forbidden to release her Zanpakutō while inside the dome of Las Noches, for if she were to do so, her immense Reiryoku would be enough to demolish the fortress. Her Reiatsu is golden-yellow."
+                    },
+                    {
+                        "Ability": "Keen Intellect",
+                        "Ability_Desc": "While a woman of few words, Harribel has proven to be an intuitive fighter. She can see through a person's demeanor to determine what they are thinking about. During the battle between Ichigo and Grimmjow, she noted how the two were similar, especially in terms of Reiatsu. Her keen intellect and intuition is proven in her initial fight with Hitsugaya, where she saw through his icy demeanor and identified his concern for his lieutenant. She sensed a small wavering in Hitsugaya's Reiatsu when the arrival of Momo Hinamori concerned him. Harribel held her own in a fight against Hitsugaya, who used his abilities to counter her own, by taking advantage of his attacks for her own purposes." 
+                    },
+                    {
+                        "Ability": "Hierro",
+                        "Ability_Desc": "(鋼皮 (イエロ), Iero; Spanish for \"Iron\", Japanese for \"Steel Skin\";Viz \"Iron Skin\"): As the Tres Espada, Harribel has strong Hierro. Even after having her body completely encased in ice by Hitsugaya's Hyōten Hyakkasō, Harribel emerged without any noticeable sign of injury. She was also able to survive being cut down twice by Aizen."
+                    },
+                    {
+                        "Ability" : "Cero",
+                        "Ability_Desc": "(虚閃 (セロ), Sero; Spanish for \"Zero\", Japanese for \"Hollow Flash\"; Viz \"Doom Blast\"): Charging a yellow Cero along her sword, Harribel can fire it in a very wide arc, following the arc of her sword swing."
+                    },
+                    {
+                        "Ability" : "Sonído Master",
+                        "Ability_Desc": "Harribel has demonstrated incredible speed in battle, initially outmaneuvering Hitsugaya to the point of forcing him almost completely on the defensive."
+                    },
+                    {
+                        "Ability" : "Descorrer",
+                        "Ability_Desc": "解空(デスコレール), Desukorēru; Spanish for \"Drawing Back/Opening\", Japanese for \"Loosed Void\"): A technique used by Espada-level Arrancar, and sometimes others, to open a Garganta between the Human World and Hueco Mundo. Harribel used one to travel to the fake Karakura Town."
+                    }],
+        "Zanpakto_Desc" : "Tiburón (皇鮫后 (ティブロン), Tiburon; Spanish for \"Shark\", Japanese for \"Supernal Shark Empress\"): In its sealed state, Harribel's Zanpakutō, while not particularly long, is unusually wide, and has the distinction of being completely hollow in the middle, essentially consisting of nothing more than the edges of what would otherwise be a normal sword. Its handle is purple, and its guard is as wide as its blade, with three small holes on either end, which Harribel uses to unsheathe it. The sword is longer than its sheath, and is worn horizontally on her upper back.",
+        "Resurrección_Desc" : "Its release command is \"Destroy\" (討て, Ute; Viz \"Hunt\"). Holding her Zanpakutō in front of her with the blade pointing down, Harribel, declaring the release command, is completely enveloped by a heart-shaped surge of water which closes around her to form a cocoon-like cyclone, which Harribel cuts herself out of. In this form, her clothes and Espada tattoo are gone. Her mask remnants become a collar, with extensions covering her nipples. She gains spaulders on her shoulders, which bear a resemblance to shark fins, and two ribbon-like protrusions on her back. A thin, spine-like structure forms on her stomach, spanning from her waist to the underside of her breasts. Harribel wears a mini-skirt consisting of bones surrounding a dark undergarment.\n\nShe wears a pair of knee-length boots and elbow-length gloves. Her weapon takes the form of a broad pata, which resembles an elongated shark tooth, featuring an unusual hilt with a hand guard which completely covers her hand. The sword possesses gill markings along either side of the blade. Harribel loses her three braids, causing her hair to become messy, and gains two blue lightning bolt markings on both sides of her face.",
+        "Resurrección_Abilities": [{
+                                        "Ability" : "Water Manipulation",
+                                        "Ability_Desc" : "Her primary ability in this form is the creation and manipulation of water. The water used for her attacks is generated by the gill markings on her blade."
+                                    },
+                                    {
+                                        "Ability" : "Trident",
+                                        "Ability_Desc" : "(トライデント, Toraidento): Harribel infuses her sword with Reiryoku, causing it to glow, and fires a high-force slash from her sword in a series of three shots. Upon contact, it can cause severe damage, cutting an opponent in half with ease."
+                                    },
+                                    {
+                                        "Ability": "Hirviendo",
+                                        "Ability_Desc": "(灼海流 (イルビエンド), Irubiendo; Spanish for \"Boiling\", Japanese for \"Burning Current\"): Pointing her blade out, Harribel boils any form of water which comes close to it, including ice, and deflects it around her." 
+                                    },
+                                    {
+                                        "Ability": "La Gota",
+                                        "Ability_Desc": "(戦雫 (ラ・ゴータ), Ra Gota; Spanish for \"The Drop\", Japanese for \"War Drop\") Harribel can condense large amounts of water around her blade before firing it as a blast which resembles a shark tooth. She can fire multiple blasts in rapid succession with relative ease. The blasts strike with enough force to demolish houses."
+                                    },
+                                    {
+                                        "Ability" : "Cascada",
+                                        "Ability_Desc": "(断瀑 (カスケーダ), Kasukeda; Spanish for \"Waterfall\", Japanese for \"Cutting Waterfall\"): Harribel launches a rushing surge of water at her enemy. The torrent of water is large enough to cover several town blocks."
+                                    }]
     },
+
+
+
+
     {
         "Character": "Yoruichi Shihōin",
         "Shikai": "Does not use or have a zanpakto",
@@ -380,6 +550,10 @@
         "img" : "https://i.pinimg.com/564x/5f/73/31/5f733110ae0e10337d4adc6206e0707a.jpg",
         "Display_Position" : "Former Captain of the Punishment Squad"
     },
+
+
+
+
     {
         "Character": "Rukia Kuchiki",
         "Shikai": "Sode No Shirayuki",
@@ -389,6 +563,10 @@
         "Display_Position" : "Captain of Squad 13",
         "HasBankai": "bankai"
     },
+
+
+
+
     {
         "Character": "Ikumi Unagiya",
         "Shikai": "Does not use or have a zanpakto",
@@ -396,6 +574,10 @@
         "img": "https://i.pinimg.com/564x/0d/61/d3/0d61d39e4700d06d6a679ec10b6887ca.jpg",
         "Display_Position": "Owner and Manager of Unagiya Shop"
     },
+
+
+
+
     {
         "Character": "Jinta Hanakari",
         "Shikai": "Does not use or have a zanpakto",

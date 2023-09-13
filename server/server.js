@@ -38,60 +38,10 @@ function sort(arr) {
 }
 
 
-//   function filter (position, arr) {
-//     let returnArr= []
-//     arr.forEach(element => {
-//         if(element.Position === position){
-//            returnArr.push(element)
-//         }
-//     });
-//     return returnArr;
-//   }
-
 app.get("/api", (req, res) => {
     res.json(data)
     fs.writeFileSync("../client/src/client_chars.json", JSON.stringify(data))
 })
-
-// app.post("/api/post", (req, res) => {
-//     let getArr = []
-//     let all = req.body.all
-//     let captain = req.body.captain
-//     let lieutenant = req.body.lieutenant
-//     let formerCap = req.body.formerCap
-//     let sub = req.body.sub
-//     let other = req.body.other
-
-//     console.log(all, captain, lieutenant, formerCap, sub, other)
-
-//     if (all) {
-//         getArr = data
-//     } else {
-//         if(other) {
-//             let arr = filter("Other", data)
-//             arr.forEach(element => getArr.push(element))
-//         }
-//         if (captain) {
-//             let arr = filter("Captain", data)
-//             arr.forEach(element => getArr.push(element))
-//         }
-//         if (lieutenant) {
-//             let arr = filter("Lieutenant", data)
-//             arr.forEach(element => getArr.push(element))
-//         }
-//         if (formerCap) {
-//             let arr = filter("Former Captain", data)
-//             arr.forEach(element => getArr.push(element))
-//         }
-//         if (sub) {
-//             let arr = filter("Substitute Shinigami", data)
-//             arr.forEach(element => getArr.push(element))
-//         }
-//     }
-
-//     console.log(getArr)
-
-//     fs.writeFileSync("Updated.json", JSON.stringify(getArr));
 
 let userdata = []
 
@@ -104,17 +54,6 @@ app.post("/api/post", (req, res) => {
 })
 
 
-
-// app.put("/api", (req, res) => {
-//     console.log(req.body);
-//     return res.json({
-//         message : "put route"
-//     })
-// });
-
-
-    // res.json({"message" : "form Submitted"})
-// })
 
 app.listen(5000, () => {
     console.log("Server running in port 5000")

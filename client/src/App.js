@@ -30,12 +30,12 @@ export function Shinigami({Shikai, Bankai , BankaiFlag, Shikai_desc, Bankai_desc
             <h2 className='titles'>Bankai - {Bankai}</h2>
             <p>{Bankai_desc}</p>
             <section className="zanpakto">
-          <h2 className='titles'>Bankai Abilities</h2>
-          {(typeof Bankai_Abilities === "undefined")? (<p>Abilities not entered</p>) : (
-            Bankai_Abilities.map((ability, i) => (
-              <section key={i}  className='content_sections'>
-                <h3><i>{ability.Ability}</i></h3>
-                <p>{ability.Ability_Desc}</p>
+              <h2 className='titles'>Bankai Abilities</h2>
+              {(typeof Bankai_Abilities === "undefined")? (<p>Abilities not entered</p>) : (
+                Bankai_Abilities.map((ability, i) => (
+                  <section key={i}  className='content_sections'>
+                    <h3><i>{ability.Ability}</i></h3>
+                    <p>{ability.Ability_Desc}</p>
               </section>
             ))
           )}
@@ -47,30 +47,44 @@ export function Shinigami({Shikai, Bankai , BankaiFlag, Shikai_desc, Bankai_desc
 
 }
 
-export function Arrancar({Resurrección}) {
+export function Arrancar({Resurrección, Resurrección_Desc, Realeased_Desc, Resurrección_abilities}) {
   return(
-    <>
-    <h2>Resurrección Description</h2>
-    <p>Description of Resurrección</p>
+    <div className='contents'>
+    <section className="zanpakto">
+      <h2 className='titles'>Resurrección Description</h2>
+      <p>{Resurrección_Desc}</p>
+    </section>
+    <section className="zanpakto">
+      <div>
+        <h2 className='titles'>Resurrección - {Resurrección}</h2>
+        <p>{Realeased_Desc}</p>
+      </div>
+    </section>
     <div>
-      <h3>Resurrección - {Resurrección}</h3>
-      <p>Resurrección abilities</p>
+      <h2 className='titles'>{Resurrección} Abilities</h2>
+      {typeof Resurrección_abilities === 'undefined'? <h3>Abilities not entered yet</h3> : 
+      Resurrección_abilities.map((ability, i) => (
+        <section key={i}  className='content_sections'>
+          <h3><i>{ability.Ability}</i></h3>
+          <p>{ability.Ability_Desc}</p>
+        </section>
+      ))}
     </div>
-  </>
+  </div>
   )
 
 }
 
-export function Quincy({Shrift, Shrift_Abilities, Shrift_desc}) {
+export function Quincy({Schrift, Schrift_Abilities, Schrift_desc}) {
   return(
     <>
     <div className='contents'>
-      <h2 className='titles'>Shrift Description</h2>
-      <p>{Shrift_desc}</p>
+      <h2 className='titles'>Schrift Description</h2>
+      <p>{Schrift_desc}</p>
       <div>
-        <h3 className='titles'>Shrift - {Shrift}</h3>
-          {typeof Shrift_Abilities === "undefined"? <p>Abilities not defined</p> : 
-          Shrift_Abilities.map((ability, i) => (
+        <h2 className='titles'>Schrift - {Schrift}</h2>
+          {typeof Schrift_Abilities === "undefined"? <p>Abilities not defined</p> : 
+          Schrift_Abilities.map((ability, i) => (
             <section key={i}  className='content_sections'>
             <h3><i>{ability.Ability}</i></h3>
             <p>{ability.Ability_Desc}</p>
@@ -82,16 +96,26 @@ export function Quincy({Shrift, Shrift_Abilities, Shrift_desc}) {
   )
 }
 
-export function Fullbring({Fullbring}) {
+export function Fullbring({Fullbring, Fullbring_Desc, Fullbring_Abilities}) {
   return(
-    <>
-      <h2>Fullbring Description</h2>
-      <p>Description of Fullbring</p>
+    <div className='contents'>
+      <section className="zanpakto">
+        <div>
+          <h2 className='titles'>Fullbring - {Fullbring}</h2>
+          <p>{Fullbring_Desc}</p>
+        </div>
+      </section>
       <div>
-        <h3>Fullbring - {Fullbring}</h3>
-        <p>Fullbring abilities</p>
+        <h2 className='titles'>{Fullbring} Abilities</h2>
+        {typeof Fullbring_Abilities === 'undefined'? <h3>Abilities not entered yet</h3> : 
+        Fullbring_Abilities.map((ability, i) => (
+          <section key={i}  className='content_sections'>
+            <h3><i>{ability.Ability}</i></h3>
+            <p>{ability.Ability_Desc}</p>
+          </section>
+        ))}
       </div>
-     </>
+     </div>
   )
 }
 
@@ -129,12 +153,12 @@ export function Resurrección({Resurrección}){
   )
 }
 
-export function Shrift({Shrift}){
+export function Schrift({Schrift}){
   return(
     <section>
-    <h3>Shrift</h3>
+    <h3>Schrift</h3>
     <ol>
-      <li>Shrift - {Shrift}</li>
+      <li>Schrift - {Schrift}</li>
     </ol>
   </section>
   )

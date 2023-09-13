@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App.css';
 import {App} from './App';
-import {Descriptions, Quincy, Shinigami, Fullbring, Arrancar, Zanpakto, FullbringPower, Resurrección, Shrift, ReturnCharacter} from './App'
+import {Descriptions, Quincy, Shinigami, Fullbring, Arrancar, Zanpakto, FullbringPower, Resurrección, Schrift} from './App'
 // import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import characters from "./client_chars.json"
@@ -15,7 +15,7 @@ fetch("/api").then(response => response.json()).then(data => data)
 function renderCharacterAbilities(element) {
   switch (element.Position){
     case "Sternritter":
-      return (<Quincy Shrift={element.Shrift} Shrift_Abilities={element.Shrift_Abilities} Shrift_desc={element.Shrift_Desc}/>)
+      return (<Quincy Schrift={element.Schrift} Schrift_Abilities={element.Schrift_Abilities} Schrift_desc={element.Schrift_Desc}/>)
     case "Captain":
     case "Lieutenant":
     case "Former Captain":
@@ -25,10 +25,10 @@ function renderCharacterAbilities(element) {
       return (<Shinigami Shikai={element.Shikai} Bankai={element.Bankai} BankaiFlag={element.HasBankai} Zanpakto_Desc={element.Zanpakto_Desc} Shikai_desc={element.Shikai_Desc} Bankai_desc={element.Bankai_Desc}
       Shikai_abilities={element.Shikai_Abilities} Bankai_Abilities={element.Bankai_Abilities}/>)
     case "Fullbring":
-      return (<Fullbring Fullbring={element.Fullbring}/>)
+      return (<Fullbring Fullbring={element.Fullbring} Fullbring_Desc={element.Fullbring_Desc} Fullbring_Abilities={element.Fullbring_Abilities}/>)
     case "Arrancar":
     case "Espada":
-      return (<Arrancar Resurrección={element.Resurrección}/>)
+      return (<Arrancar Resurrección={element.Resurrección} Realeased_Desc={element.Resurrección_Desc} Resurrección_Desc={element.Zanpakto_Desc} Resurrección_abilities={element.Resurrección_Abilities}/>)
     default:
       return (<></>)
   }
@@ -38,7 +38,7 @@ function renderDisplayAbilities(element) {
   switch (element.Position){
     case "Quincy":
     case "Sternritter":
-      return (<Shrift Shrift={element.Shrift}/>)
+      return (<Schrift Schrift={element.Schrift}/>)
     case "Captain":
     case "Lieutenant":
     case "Former Captain":
@@ -49,6 +49,7 @@ function renderDisplayAbilities(element) {
     case "Fullbring":
       return (<FullbringPower Fullbring={element.Fullbring}/>)
     case "Arrancar":
+    case "Espada":
       return (<Resurrección Resurrección={element.Resurrección}/>)
     default:
       return (<></>)
