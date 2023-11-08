@@ -26,7 +26,7 @@ Welcome to the Bleach Character Dictionary Web App! This is a web application th
 
 - Search and browse through a wide range of "Bleach" characters.
 - Access detailed information about each character, including their name, description, and abilities.
-- User-friendly and responsive web interface built using React for the frontend.
+- User-friendly and responsive web interface built using React for the front end.
 - Server-side functionality powered by Node.js and Express.
 - Easy-to-follow installation and usage instructions.
 
