@@ -5,7 +5,7 @@
 # Bleach Character Dictionary
 
 <div align="center">
-  <img src="screenshot.png" alt="App Screenshot" />
+  <img src="bleachApp.png" alt="App Screenshot" />
 </div>
 
 ## Table of Contents
