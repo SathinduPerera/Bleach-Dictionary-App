@@ -2,7 +2,7 @@
   <img src="client/src/Images/logo_finished.png" alt="Bleach Logo" style="height: 50px"/>
 </div>
 
-# Bleach Character Dictionary Web App
+# Bleach Character Dictionary
 
 <div align="center">
   <img src="screenshot.png" alt="App Screenshot" />
