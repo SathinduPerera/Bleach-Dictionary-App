@@ -16,7 +16,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -41,9 +40,9 @@ Before you get started with the Bleach Character Dictionary Web App, make sure y
 
 1. Clone the repository to your local machine:
 
-   ```bash
-   git clone https://github.com/your-username/bleach-character-dictionary.git
-   ```
+ ```bash
+ git clone https://github.com/your-username/bleach-character-dictionary.git
+ ```
 
 ## Usage
 
