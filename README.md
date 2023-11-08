@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="bleach_logo.png" alt="Bleach Logo" />
+  <img src="client/src/Images/logo_finished.png" alt="Bleach Logo" />
 </div>
 
 # Bleach Character Dictionary Web App
