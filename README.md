@@ -47,7 +47,7 @@ To start the Bleach Character Dictionary Web App, follow these steps:
 1. Start the backend server (Express):
 
   ```bash
-  npm start
+  npm run dev
 ```
 The server should start on port 5000.
 
