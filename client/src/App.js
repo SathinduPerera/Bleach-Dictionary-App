@@ -166,14 +166,13 @@ export function Resurrección({Resurrección}){
 export function Schrift({Schrift}){
   return(
     <section>
-    <h3>Schrift</h3>
-    <ol>
-      <li>Schrift - {Schrift}</li>
-    </ol>
+    	<h3>Schrift</h3>
+    	<ol>
+      		<li>Schrift - {Schrift}</li>
+    	</ol>
   </section>
   )
 }
-
 
 
 export function Descriptions({Character, Position, Image, display_comp, display_abilities, desc, appearence, personality, abilities, color, characterList}){

@@ -10,8 +10,7 @@ font-family: 'Phudu', cursive;
 font-family: 'Poppins', sans-serif; */
 
 body{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1vw;
+  font-family: Phudu;
   margin: 0px;
   background-image: linear-gradient(
     rgba(0, 81, 255, 0.2), 

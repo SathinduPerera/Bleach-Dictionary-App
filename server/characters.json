@@ -100,7 +100,7 @@
         "Shikai": "Zangetsu",
         "Bankai": "Tensa Zangetsu",
         "Position": "Substitute Shinigami",
-        "color" : "rgba(168, 86, 50, 0.5)",
+        "color" : "rgba(244, 159, 10, 0.3)",
         "img" : "https://i.pinimg.com/564x/38/a1/b5/38a1b5926b56eafacb87756122d9dfee.jpg",
         "Display_Position" : "Substitute Shinigami (Stationed in Karakura Town)",
         "HasBankai" : "bankai",
