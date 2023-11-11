@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App.css';
 import {App} from './App';
-import {Descriptions, Quincy, Shinigami, Fullbring, Arrancar, Zanpakto, FullbringPower, Resurrección, Schrift, Ichigo} from './App'
+import {Descriptions, Quincy, Shinigami, Fullbring, Arrancar, Zanpakto, FullbringPower, Resurrección, Schrift} from './App'
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import characters from "./client_chars.json"
 
